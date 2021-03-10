@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #fafafa;
+    padding:0;
+    margin-left: 2%;
+    height: 41px;
+}
+
+nav {
+    text-align:center;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav button{
+    height: 35px;
+    margin:0, auto;
+    padding:0;
+    padding-top: 0;
+}
+
+.navbar-toggler-icon{
+    margin:0, auto;
+    height: 20px;
+    box-sizing:content-box;
+}
