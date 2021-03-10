@@ -24,3 +24,23 @@ nav button{
     height: 20px;
     box-sizing:content-box;
 }
+
+/*            HERO               */
+
+.hero-image {
+    background-image: url("../images/hero-image.jpg");
+    width:100%;
+    height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-box {
+      text-align: center;
+      color: #F0D297;
+      margin:0, auto;
+      padding:1em;
+      
+  }
