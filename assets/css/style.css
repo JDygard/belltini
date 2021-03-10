@@ -27,22 +27,9 @@ nav button{
 
 /*            HERO               */
 
-/* Commented out because making the hero-image the container seems to have fixed the positioning problem.
-
-.hero-image {
-    background-image: url("../images/hero-image.jpg");
-    width:100%;
-    height: 375px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }*/
-
 .hero-container{
   padding: 0;
   margin: 0;
-  list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,9 +46,15 @@ nav button{
     background-color: rgb(0, 0, 0, 0.5);
     padding:0;
     margin:0;
+    transform: translate(0, -60px);
+    padding: 30px;
     background-size: 257px;
     width: 257px;
     border-radius: 5%;
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 #hero-text{
@@ -70,4 +63,14 @@ nav button{
     font-size: 18px;
     text-align: center;
     color: #F0D297;
+}
+
+.btn-order-now{
+    width:100%;
+    padding: 0;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
