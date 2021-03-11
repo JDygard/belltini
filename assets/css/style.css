@@ -131,6 +131,11 @@ header ul{
     width: 80px;
 }
 
+.hr-divider-long{
+    border-top: 1px #fafafa solid;
+    width: 275px;
+}
+
 /* Reasons text styling */
 .reasons{
     font-family: "Montserrat", sans-serif;
@@ -154,13 +159,21 @@ header ul{
 .reasons-left{
     text-align: left;
     left: 5%;
-    padding-right: 25%;
+    padding-right: 10%;
+}
+
+.reasons-left p{
+    padding-left: 100px;
 }
 
 .reasons-right{
     text-align: right;
     right: 5%;
-    padding-left: 25%;
+    padding-left: 10%;
+}
+
+.reasons-right p{
+    padding-right: 100px;
 }
 
 @media screen and (min-width:992px){
@@ -171,6 +184,10 @@ header ul{
     .reasons-left{
         padding-right: 5%
     }
+
+    .hr-divider-long{
+        display: none;
+    }
 }
 
 /* Reasons icon styling */
@@ -178,6 +195,7 @@ header ul{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    border: 2px #959da1 solid;
 }
 
 .reasons-icon-left{
@@ -195,7 +213,7 @@ header ul{
         width: 120px;
         height: 120px;
         margin-bottom: 50px;
-}
+    }
 }
 
 
@@ -235,4 +253,10 @@ header ul{
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ), url(../images/why-belltini-bg-lg.png) no-repeat center center;
         background-size: 100%;
     }
+}
+
+/*---------------------------------------------------------------FOOTER--*/
+footer{
+    background-color: #A6A39F;
+    height: 120px;
 }
