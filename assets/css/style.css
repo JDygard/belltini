@@ -102,3 +102,10 @@ header ul{
     justify-content: center;
     position: relative;
 }
+
+/*------------------------------------------------------------WHY BELLTINI SECTION--*/
+/* Background image */
+.why-belltini-container{
+    background: #fafafa url(../images/why-belltini-bg-sm.png) no-repeat center center;
+    background-size: 100%;
+}
