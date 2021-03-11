@@ -113,6 +113,54 @@ header ul{
     letter-spacing: 2px;
     margin:0;
     margin-top: 10px;
+    color:#263037 ;
+}
+
+/* Horizontal Rule Styling */
+.hr-divider{
+    border-top: 1px #36454f solid;
+    width: 80px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+/* Needed to style a different one for different spots */
+.hr-divider-top{
+    border-top: 1px #36454f solid;
+    width: 80px;
+}
+
+/* Reasons styling */
+.reasons{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.reasons h3{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.reasons p{
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 0.5rem;
+}
+
+.reasons-left{
+    text-align: left;
+    left: 5%;
+    padding-right: 10%;
+}
+
+.reasons-right{
+    text-align: right;
+    right: 5%;
+    padding-left: 10%;
 }
 
 /*---------------------------------------------------------------WHY BELLTINI SECTION--*/
