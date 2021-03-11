@@ -125,13 +125,13 @@ header ul{
     padding: 0;
 }
 
-/* Needed to style a different one for different spots */
+/* Needed to style a different one for different places */
 .hr-divider-top{
     border-top: 1px #36454f solid;
     width: 80px;
 }
 
-/* Reasons styling */
+/* Reasons text styling */
 .reasons{
     font-family: "Montserrat", sans-serif;
     margin: 0;
@@ -162,6 +162,24 @@ header ul{
     right: 5%;
     padding-left: 10%;
 }
+
+/* Reasons icon styling */
+.reasons-icon-left{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float:left;
+    margin-right: 5%;
+}
+
+.reasons-icon-right{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float:right;
+    margin-left: 5%;
+}
+
 
 /*---------------------------------------------------------------WHY BELLTINI SECTION--*/
 /* Text formatting */
