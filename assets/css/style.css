@@ -103,7 +103,19 @@ header ul{
     position: relative;
 }
 
-/*------------------------------------------------------------WHY BELLTINI SECTION--*/
+/*------------------------------------------------------------WHY FRESH PASTA SECTION--*/
+/* Header text formatting */
+#why-fresh-pasta{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight:300;
+    text-align: center;
+    letter-spacing: 2px;
+    margin:0;
+    margin-top: 10px;
+}
+
+/*---------------------------------------------------------------WHY BELLTINI SECTION--*/
 /* Text formatting */
 .why-belltini-container h2, .why-belltini-container h3{
     color: #fff;
@@ -128,7 +140,7 @@ header ul{
 }
 
 /* Custom breakpoints for Why Belltini background image */
-@media screen and (min-width:704px){
+@media screen and (min-width:734px){
     .why-belltini-container{
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ), url(../images/why-belltini-bg-md.png) no-repeat center center;
         background-size: 100%;
