@@ -104,8 +104,25 @@ header ul{
 }
 
 /*------------------------------------------------------------WHY BELLTINI SECTION--*/
+/* Text formatting */
+.why-belltini-container h2, .why-belltini-container h3{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.why-belltini-container h2{
+    font-size: 24px;
+    font-weight:300;
+}
+.why-belltini-container h3{
+    font-size: 12px;
+    font-weight:400;
+}
+
 /* Background image */
 .why-belltini-container{
-    background: #fafafa url(../images/why-belltini-bg-sm.png) no-repeat center center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ), url(../images/why-belltini-bg-sm.png) no-repeat center center;
     background-size: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
