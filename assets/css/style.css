@@ -154,30 +154,48 @@ header ul{
 .reasons-left{
     text-align: left;
     left: 5%;
-    padding-right: 10%;
+    padding-right: 25%;
 }
 
 .reasons-right{
     text-align: right;
     right: 5%;
-    padding-left: 10%;
+    padding-left: 25%;
+}
+
+@media screen and (min-width:992px){
+    .reasons-right{
+        padding-left: 5%;
+    }
+
+    .reasons-left{
+        padding-right: 5%
+    }
 }
 
 /* Reasons icon styling */
-.reasons-icon-left{
+.reasons-icon{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+.reasons-icon-left{
     float:left;
     margin-right: 5%;
 }
 
 .reasons-icon-right{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
     float:right;
     margin-left: 5%;
+}
+
+@media screen and (min-width:992px){
+    .reasons-icon{
+        width: 120px;
+        height: 120px;
+        margin-bottom: 50px;
+}
 }
 
 
