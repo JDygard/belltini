@@ -126,3 +126,17 @@ header ul{
     padding-top: 20px;
     padding-bottom: 50px;
 }
+
+/* Custom breakpoints for Why Belltini background image */
+@media screen and (min-width:704px){
+    .why-belltini-container{
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ), url(../images/why-belltini-bg-md.png) no-repeat center center;
+        background-size: 100%;
+    }
+}
+@media screen and (min-width:992px){
+    .why-belltini-container{
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ), url(../images/why-belltini-bg-lg.png) no-repeat center center;
+        background-size: 100%;
+    }
+}
