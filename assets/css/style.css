@@ -1,3 +1,9 @@
+/* Set the max width of the page */
+.content{
+    max-width: 1440px;
+    margin:auto;
+}
+
 /*-----------------------------------------------------------NAV BAR--*/
 
 .navbar {
@@ -33,8 +39,8 @@ header ul{
 }
 
 .navbar-nav{
-        margin-left: auto;
-        border: 1px solid black;
+    margin-left: auto;
+    border: 1px solid black;
 }
 
 /* Formatting the nav bar for mobile broke desktop. Fixing it here. */
@@ -57,7 +63,7 @@ header ul{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/hero-image.jpg");
+  background-image: url("../images/hero-image-2-md.png");
   width:100%;
   height: 375px;
   background-position: center;
@@ -116,6 +122,18 @@ header ul{
     color:#263037 ;
 }
 
+#reasons-section{
+    background-color:#fafafa;
+}
+
+/* a border box for very high resolutions */
+@media screen and (min-width:1440px){
+    #reasons-section{
+        border-right: 1px #b0b0b0 solid;
+        border-left: 1px #b0b0b0 solid;
+    }
+}
+
 /* Horizontal Rule Styling */
 .hr-divider{
     border-top: 1px #36454f solid;
@@ -125,7 +143,7 @@ header ul{
     padding: 0;
 }
 
-/* Needed to style a different one for different places */
+/* Needed to style a different hr for different places */
 .hr-divider-top{
     border-top: 1px #36454f solid;
     width: 80px;
@@ -159,7 +177,7 @@ header ul{
 .reasons-left{
     text-align: left;
     left: 5%;
-    padding-right: 10%;
+    padding-right: 20%;
 }
 
 .reasons-left p{
@@ -169,7 +187,7 @@ header ul{
 .reasons-right{
     text-align: right;
     right: 5%;
-    padding-left: 10%;
+    padding-left: 20%;
 }
 
 .reasons-right p{
@@ -255,6 +273,18 @@ header ul{
     }
 }
 
+/*---------------------------------------------------------------ABOUT PAGE-------------------------------------------------------*/
+/* Background image */
+#about-section{
+    background: #fafafa url(../images/about-bg-md.png) no-repeat center center;
+    height:80%;
+}
+
+#about-profile{
+    left:10%;
+    width:40%;
+    height:auto;
+}
 /*---------------------------------------------------------------FOOTER--*/
 footer{
     background-color: #A6A39F;
