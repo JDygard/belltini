@@ -276,17 +276,34 @@ header ul{
 /*---------------------------------------------------------------ABOUT PAGE-------------------------------------------------------*/
 /* Background image */
 #about-section{
-    background: #fafafa url(../images/about-bg-md.png) no-repeat center center;
-    height:80%;
+    display: flex;
+    background: #fafafa url(../images/about-bg-md.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 40em;
+    width: 100%;
 }
 
-#about-profile{
-    left:10%;
-    width:40%;
-    height:auto;
+.about-profile{
+    display:flex;
+    background: url(../images/about-profile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 310px;
+    left: 10%;
+    margin-top:50px;
+    border-radius: 5%;
 }
+
 /*---------------------------------------------------------------FOOTER--*/
 footer{
     background-color: #A6A39F;
     height: 120px;
+    position:relative;
 }
