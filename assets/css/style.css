@@ -289,7 +289,7 @@ header ul{
 #about-section{
     margin:0;
     background: url(../images/about-bg-full.jpeg);
-    background-position: top;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -319,7 +319,7 @@ header ul{
     text-align:center;
     letter-spacing:-1px;
     margin:0, auto;
-    transform: translate(150px,-50px);
+    transform: translate(125px,-50px);
     padding-top: 2px;
 }
 
@@ -334,9 +334,11 @@ header ul{
 @media screen and (min-width:992px){
     .about-blurbs-1{
         right:20%;
-        padding-left: 75px;
+        padding-top:250px;
+        padding-left: 150px;
     }
     .about-blurbs-2{
+        padding-top:0;
         left:20%
     }
 }
@@ -349,14 +351,21 @@ header ul{
     }
     .about-blurbs-2{
         padding-top: 0px;
-        text-align:justify;
+    }
+    #about-section{
+        margin:0;
+        background: url(../images/about-bg-md.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
     }
 }
 
 /* A little bit of adjustment for very small screens */
 @media screen and (max-width:413px){
     .about-meet{
-        transform: translate(90px,250px);
+        transform: translate(100px,-50px);
     }
 }
 
