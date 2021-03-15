@@ -287,26 +287,26 @@ header ul{
 /*---------------------------------------------------------------ABOUT PAGE-------------------------------------------------------*/
 /* Background image */
 #about-section{
+    margin:0;
     background: url(../images/about-bg-full.jpeg);
-    background-size: 100%;
-    background-position: right;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    max-width:1440px;
 }
 
 /* Profile image */
 .about-profile{
-    background: url(../images/about-profile.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:absolute;
-    width: 250px;
-    height: 310px;
     left: 10%;
     margin-top:50px;
     border-radius: 5%;
+    width: 250px;
+    height: 310px;
+}
+#about-profile-img{
+    width: 250px;
+    height: 310px;
 }
 .about-meet{
     background:  rgba(209, 208, 208, 0.9) no-repeat center center;
