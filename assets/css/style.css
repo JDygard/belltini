@@ -287,25 +287,21 @@ header ul{
 /*---------------------------------------------------------------ABOUT PAGE-------------------------------------------------------*/
 /* Background image */
 #about-section{
-    display: flex;
-    background: #fafafa url(../images/about-bg-full.jpeg);
+    background: url(../images/about-bg-full.jpeg);
     background-size: 100%;
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 40em;
-    width: 100%;
 }
 
 /* Profile image */
 .about-profile{
-    display:flex;
     background: url(../images/about-profile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position:absolute;
     width: 250px;
     height: 310px;
     left: 10%;
@@ -324,11 +320,17 @@ header ul{
     letter-spacing:-1px;
     margin:0, auto;
     transform: translate(150px,250px);
+    padding-top: 2px;
+}
+
+.about-blurbs{
+    position: relative;
 }
 
 @media screen and (max-width:413px){
     .about-meet{
         transform: translate(90px,250px);
+    }
 }
 
 /*---------------------------------------------------------------FOOTER--*/
