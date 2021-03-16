@@ -4,6 +4,11 @@
     margin:auto;
 }
 
+a{
+    text-decoration:none;
+    color:#fff;
+    z-index: 5;
+}
 /*-----------------------------------------------------------NAV BAR--*/
 
 .navbar {
@@ -70,7 +75,6 @@ header ul{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  z-index: -2;
 }
 
 /* Box with text and button */
