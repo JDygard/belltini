@@ -265,7 +265,7 @@ header ul{
 /* Background image */
 .why-belltini-container{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ), url(../images/why-belltini-bg-sm.png) no-repeat center center;
-    background-size: 100%;
+    background-size: cover;
     padding-top: 20px;
     padding-bottom: 50px;
 }
@@ -354,13 +354,16 @@ header ul{
     }
     #about-section{
         margin:0;
-        background: url(../images/about-bg-md.png);
-        background-position: top;
+        /*background: url(../images/about-bg-md.png);*/
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
     }
 }
+@media screen and (max-width: 539px) {
+}
+
 
 /* A little bit of adjustment for very small screens */
 @media screen and (max-width:413px){
