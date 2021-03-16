@@ -35,3 +35,10 @@ I really liked the [background image](https://www.pexels.com/photo/cook-making-f
 Because the original image is so large and I'm only using a small part of it, I've trimmed the original into three versions and created custom breakpoints, to keep legibility on the text while preserving the natural framing device in the original image.
 
 I put another order button here for those who scrolled down.
+
+### About page
+I decided to use bootstrap to organize this page entirely. Other than the background image, all elements are on a single row. I used custom breakpoints in CSS to order and style things as they reorder in the row.
+#### Profile image and text
+I liked this profile image and text. I used the transform: translate() property to move the text box into the position it's in. I also added a custom breakpoint to maintain the look on smaller viewports.
+#### Blurbs
+I called the small blocks of about text "blurbs." I think I kept them stylish and readable on all viewports. Though I would have loved to keep the herbs in the background image visible on smaller viewports, it was difficult to keep the text readable on very small viewports without the herbs interfering. I may go back and make the background fixed on small backgrounds and have the herbs only appear near the profile picture.

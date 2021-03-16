@@ -327,9 +327,6 @@ header ul{
     padding-top:80px;
 }
 
-.about-blurbs-2{
-}
-
 /* Styling for blurbs for large sized screens */
 @media screen and (min-width:992px){
     .about-blurbs-1{
@@ -370,6 +367,45 @@ header ul{
     .about-meet{
         transform: translate(100px,-50px);
     }
+}
+
+/*---------------------------------------------------------------ORDER PAGE--*/
+/* Background image */
+.container-order{
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/order-bg-lg.png);
+    height: 740px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width:1440px;
+}
+
+/* Text box styling */
+.order-box{
+    background-color: rgb(0, 0, 0, 0.5);
+    padding:0;
+    margin:0;
+    padding: 30px;
+    background-size: 257px;
+    width: 80%;
+    max-width: 584px;
+    border-radius: 5%;
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    text-align: center;
+    color: #F0D297;
+    transform: translate(0,-210px)
 }
 
 /*---------------------------------------------------------------FOOTER--*/
