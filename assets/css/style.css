@@ -199,13 +199,16 @@ header ul{
     padding-right: 100px;
 }
 
+/* Restyling text for larger screens */
 @media screen and (min-width:992px){
     .reasons-right{
-        padding-left: 5%;
+        padding-left: 7%;
+        text-align:right;
     }
 
     .reasons-left{
-        padding-right: 5%
+        padding-right: 7%;
+        text-align: left;
     }
 
     .hr-divider-long{
@@ -216,7 +219,6 @@ header ul{
         padding-top: 25px;
         padding-bottom: 35px;
     }
-    /* Restyling text for larger screens */
     .reasons h3{
         font-weight:300;
         font-size:24px;
@@ -226,6 +228,29 @@ header ul{
         letter-spacing: 3px;
         font-weight:400;
         font-size:38px;
+    }
+}
+
+/* Styling for very small screens */
+@media screen and (max-width:465px){
+    .reasons h3{
+        font-size:16px;
+        font-weight: 400
+    }
+    .reasons p{
+        font-size:14px;
+    }
+    .reasons-right p{
+        text-align:right;
+    }
+    .reasons-left{
+        left: 2%;
+        padding-right: 10%;
+    }
+    
+    .reasons-right{
+        right: 2%;
+        padding-left: 10%;
     }
 }
 
