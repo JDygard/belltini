@@ -417,4 +417,52 @@ footer{
     background-color: #A6A39F;
     height: 120px;
     position:relative;
+    text-align:center;
+}
+
+.footer-item{
+    display:flex;
+    flex-direction: column;
+}
+
+footer p{
+    margin:0;
+}
+.footer-item a i{
+    font-size: 40px;
+}
+
+.footer-insta{
+    padding-top:20px;
+}
+
+.footer-avalon{
+    margin-top:20px;
+}
+
+#hr-footer{
+    display:none;
+}
+
+@media screen and (max-width:576px){
+    .footer-item{
+        padding:0;
+        margin:0;
+        margin-top:0;
+        padding-top:0;
+    }
+    .footer-insta{
+        padding-top:0;
+    }
+    .footer-avalon{
+        margin-top:0;
+    }
+    #hr-footer{
+        display:inline-block;
+        margin:auto;
+        margin-top:2px;
+    }
+    
+    
+    
 }
