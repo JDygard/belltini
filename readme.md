@@ -18,6 +18,8 @@ An order form.
 ## Code attributions
 ### Nav element
 The nav element was loosely adapted from the example given on the [bootstrap navbar page](https://getbootstrap.com/docs/4.0/components/navbar/)
+### Gallery page
+The gallery page was adapted from a free code snippet provided by [Bootstrapious](https://bootstrapious.com/p/bootstrap-photo-gallery).
 
 ## Page notes
 ### Index

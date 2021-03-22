@@ -64,15 +64,19 @@ header ul{
     border: 1px solid black;
 }
 
+
 /* Formatting the nav bar for mobile broke desktop. Fixing it here. */
 @media screen and (min-width:992px){
     header ul{
-        width:350px;
+        width: 550px;
     }
     .navbar-nav{
         margin-left: 0;
         margin-right: auto !important;
         border: none;
+    }
+    nav li{
+        padding-left: 10px;
     }
 }
 
