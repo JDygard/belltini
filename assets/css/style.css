@@ -5,7 +5,7 @@
         margin: auto;
     }
     .navbar{
-        max-width: 65%;
+        max-width: 70%;
         border-right: 1px #b0b0b0 solid;
         border-left: 1px #b0b0b0 solid;
     }
@@ -41,7 +41,7 @@ nav {
 }
 
 nav button{
-    height: 35px;
+    height: 41px;
     margin:0, auto;
     padding:0;
     padding-top: 0;
