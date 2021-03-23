@@ -463,6 +463,8 @@ h4{
 @media screen and (max-width:413px){
     .about-meet{
         transform: translate(100px,-50px);
+        font-size:28px;
+        padding-top:10px;
     }
 }
 
@@ -542,6 +544,20 @@ h4{
     #gallery-content img{
         object-fit:contain;
     }
+}
+
+/*---------------------------------------------------------------LEARN MORE PAGE--*/
+#learnmore-video{
+    font-family: "Montserrat", sans-serif;
+    width:100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#learnmore-video>h2{
+    margin-top: 60px;
+    font-weight:300;
+    padding-bottom:20px;
 }
 
 /*---------------------------------------------------------------FOOTER--*/
