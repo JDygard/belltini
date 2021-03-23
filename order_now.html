@@ -130,15 +130,11 @@
   </div>
   <script>
     /* Script below found on Stack Overflow: https://stackoverflow.com/questions/37346081/enable-disable-select-dropdown-on-radio-selection */
-    console.log("fuckthefirst")
     $('#pasta-type').change(function(){
-      console.log("fuck")
       if ($(this).val()=='garganelli'||'contanti'||'farfalle') {
-          console.log("fucktoo")
           $('#fillings').hide();
       }
       else {
-        console.log("fuckittoo")
         $('#fillings').show();
       }
     });
