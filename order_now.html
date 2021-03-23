@@ -68,7 +68,7 @@
                   <option value="tortelloni">Tortelloni ($8.73/1lb)</option>
                   <option value="tortellini">Tortellini ($8.73/1lb)</option>
                 </select>
-                <div>
+                <div id="fillings">
                   <p>Select a filling</p>
                   <input type="radio" id="mozz" name="filling" value="mozz" checked>
                   <label for="mozz">Mozzerella cheese</label>
@@ -135,7 +135,10 @@
           $('#selectordropdown').attr('disabled', false);
       } */
       if ($(this).val()=='garganelli'||'contanti'||'farfalle') {
-          $('name=filling').attr('disabled', true);
+          $('#fillings').hide();
+      }
+      else {
+        $('#fillings').show();
       }
     });
   </script>
