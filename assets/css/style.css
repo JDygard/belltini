@@ -503,7 +503,14 @@ h4{
     font-size: 18px;
     text-align: center;
     color: #F0D297;
-    transform: translate(0,-210px)
+}
+
+.order-box h4{
+    margin-bottom:20px;
+}
+
+.order-box li{
+    list-style:none;
 }
 
 /*---------------------------------------------------------------GALLERY-*/

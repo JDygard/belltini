@@ -50,9 +50,66 @@
         </header>
         <body>
           <div class="container-order">
+            <!-- FORM BOX --> 
             <div class="order-box">
               <h4>Let's get you some pasta!</h4>
-              <p>Send a thorough inquiry to<br>Belltinipasta@gmail.com</p>
+              <!-- FORM -->
+              <form action="form-handling/" method="post">
+                <label for="pasta-type">Pasta Type:</label>
+                <select class="custom-select" id="pasta-type" required>
+                  <option selected>Select a pasta</option>
+                  <option value="garganelli">Garganelli ($4.86/11oz)</option>
+                  <option value="ravioli">Traditional Ravioli ($8.73/1lb)</option>
+                  <option value="contanti">Anatre Contanti ($4.86/11oz)</option>
+                  <option value="farfalle">Farfalle ($4.86/11oz)</option>
+                  <option value="agnolotti">Agnolotti ($8.73/1lb)</option>
+                  <option value="fagottini">Fagottini ($8.73/1lb)</option>
+                  <option value="tortellaci">Tortellaci ($8.73/1lb)</option>
+                  <option value="tortelloni">Tortelloni ($8.73/1lb)</option>
+                  <option value="tortellini">Tortellini ($8.73/1lb)</option>
+                </select>
+                <div>
+                  <p>Select a filling</p>
+                  <input type="radio" id="mozz" name="filling" value="mozz" checked>
+                  <label for="mozz">Mozzerella cheese</label>
+
+                  <input type="radio" id="ricotta" name="filling" value="ricotta">
+                  <label for="ricotta">Ricotta cheese</label>
+
+                  <input type="radio" id="gorgonzola" name="filling" value="gorgonzola">
+                  <label for="louie">Gorgonzola cheese</label>
+
+                  <input type="radio" id="spinachricotta" name="filling" value="spinachricotta">
+                  <label for="spinachricotta">Spinach and Ricotta cheese</label>
+
+                  <input type="radio" id="goattomato" name="filling" value="goattomato">
+                  <label for="goattomato">Goat Cheese and Tomato</label>
+
+                  <input type="radio" id="porcini" name="filling" value="porcini">
+                  <label for="porcini">Porcini</label>
+                </div>
+                <hr class="hr-divider"><br>
+                <label for="pasta-type">Pasta Flavor/Color:</label>
+                <select class="custom-select" required>
+                  <option selected>Select a coloring</option>
+                  <option value="egg">Egg (Normal pasta color)</option>
+                  <option value="beetred">Beetroot Red (+$0.75)</option>
+                  <option value="pepperred">Bell Pepper Red (+$0.75)</option>
+                  <option value="carrotorange">Carrot Orange (+$0.50)</option>
+                  <option value="pepperorange">Bell Pepper Orange (+$0.75)</option>
+                  <option value="spinachgreen">Spinach Green (+$0.75)</option>
+                  <option value="peppergreen">Bell Pepper Green (+$0.89)</option>
+                  <option value="spirulinagreen">Spirulina Green (+$1.25)</option>
+                  <option value="spirulinablue">Spirulina Blue (+$1.25)</option>
+                  <option value="kaiga">Kaiga (+$1.89)</option>
+                  <option value="sunset">Sunset (+$1.89)</option>
+                  <option value="other">Other</option>
+                </select>
+                <p>Note: For striped or styled pastas, select "Other" and write your request in the comments area below.</p>
+                
+              </form>
+              <h4>+ Add another pasta</h4>
+              <!-- FORM END -->
             </div>
           </div>
         </body>
@@ -71,4 +128,15 @@
       </footer>
     </body>
   </div>
+  <script>
+    /* Script below found on Stack Overflow: https://stackoverflow.com/questions/37346081/enable-disable-select-dropdown-on-radio-selection */
+    $('input:select[id="pasta-type"]').change(function() {
+      /*if ($(this).val()=='Daily') {
+          $('#selectordropdown').attr('disabled', false);
+      } */
+      if ($(this).val()=='garganelli'||'contanti'||'farfalle') {
+          $('name=filling').attr('disabled', true);
+      }
+    });
+  </script>
 </html>
