@@ -49,13 +49,13 @@
           </nav>
         </header>
         <body>
-          <div class="container-order">
+          <div class="container-order container-fluid">
             <!-- FORM BOX --> 
             <div class="order-box">
               <h4>Let's get you some pasta!</h4>
               <!-- FORM -->
               <form action="form-handling/" method="post">
-                <label for="pasta-type">Pasta Type:</label>
+                <label for="pasta-type"><h5>Pasta Type:</h5></label>
                 <select class="custom-select" id="pasta-type" required>
                   <option selected>Select a pasta</option>
                   <option value="garganelli">Garganelli ($4.86/11oz)</option>
@@ -68,28 +68,46 @@
                   <option value="tortelloni">Tortelloni ($8.73/1lb)</option>
                   <option value="tortellini">Tortellini ($8.73/1lb)</option>
                 </select>
-                <div id="fillings">
-                  <p>Select a filling</p>
-                  <input type="radio" id="mozz" name="filling" value="mozz" checked>
-                  <label for="mozz">Mozzerella cheese</label>
 
-                  <input type="radio" id="ricotta" name="filling" value="ricotta">
-                  <label for="ricotta">Ricotta cheese</label>
+                <!-- RADIO BUTTONS -->
+                <div id="fillings" class="row container" style="display:none;">
+                  <div class="col-12" id="select-filling">
+                      <h5>Select a filling</h5>
+                  </div>
+                  <div class="col-xs-12 col-md-4">
+                    <input type="radio" id="mozz" name="filling" value="mozz" checked>
+                    <label for="mozz">Mozzarella cheese</label>
+                  </div>
 
-                  <input type="radio" id="gorgonzola" name="filling" value="gorgonzola">
-                  <label for="louie">Gorgonzola cheese</label>
+                  <div class="col-xs-12 col-md-4">
+                    <input type="radio" id="ricotta" name="filling" value="ricotta">
+                    <label for="ricotta">Ricotta cheese</label>
+                  </div>
 
-                  <input type="radio" id="spinachricotta" name="filling" value="spinachricotta">
-                  <label for="spinachricotta">Spinach and Ricotta cheese</label>
+                  <div class="col-xs-12 col-md-4">
+                    <input type="radio" id="gorgonzola" name="filling" value="gorgonzola">
+                    <label for="louie">Gorgonzola cheese</label>
+                  </div>
 
-                  <input type="radio" id="goattomato" name="filling" value="goattomato">
-                  <label for="goattomato">Goat Cheese and Tomato</label>
+                  <div class="col-xs-12 col-md-4">
+                    <input type="radio" id="spinachricotta" name="filling" value="spinachricotta">
+                    <label for="spinachricotta">Spinach and Ricotta cheese</label>
+                  </div>
 
-                  <input type="radio" id="porcini" name="filling" value="porcini">
-                  <label for="porcini">Porcini</label>
+                  <div class="col-xs-12 col-md-4">
+                    <input type="radio" id="goattomato" name="filling" value="goattomato">
+                    <label for="goattomato">Goat Cheese and Tomato</label>
+                  </div>
+
+                  <div class="col-xs-12 col-md-4">
+                    <input type="radio" id="porcini" name="filling" value="porcini">
+                    <label for="porcini">Porcini</label>
+                  </div>
                 </div>
+                <!-- END -->
+
                 <hr class="hr-divider"><br>
-                <label for="pasta-type">Pasta Flavor/Color:</label>
+                <label for="pasta-type"><h5>Pasta Flavor/Color:</h5></label>
                 <select class="custom-select" required>
                   <option selected>Select a coloring</option>
                   <option value="egg">Egg (Normal pasta color)</option>
@@ -129,14 +147,27 @@
     </body>
   </div>
   <script>
-    /* Script below found on Stack Overflow: https://stackoverflow.com/questions/37346081/enable-disable-select-dropdown-on-radio-selection */
-    $('#pasta-type').change(function(){
-      if ($(this).val()=='garganelli'||'contanti'||'farfalle') {
-          $('#fillings').hide();
-      }
-      else {
-        $('#fillings').show();
-      }
-    });
+    window.onload = function () {
+      console.log("event");
+      const ele = document.getElementById("pasta-type");
+      const x = document.getElementById("fillings");
+    
+      ele.addEventListener("change", function (e) {
+        if (
+          e.target.value === "garganelli" ||
+          e.target.value === "contanti" ||
+          e.target.value === "farfalle"
+        ) 
+        {
+          console.log("hide");
+          x.style.display = "none";
+        }
+
+        else {
+          console.log("show")
+          x.style.display = "flex";
+        }
+      });
+    };
   </script>
 </html>
