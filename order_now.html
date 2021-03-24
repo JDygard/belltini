@@ -55,7 +55,7 @@
               <h4>Let's get you some pasta!</h4>
               <!-- FORM -->
               <form action="form-handling/" method="post">
-                <label for="pasta-type"><h5>Pasta Type:</h5></label>
+                <label for="pasta-type" class="select-label"><h5>Pasta Type:</h5></label>
                 <select class="custom-select" id="pasta-type" required>
                   <option selected>Select a pasta</option>
                   <option value="garganelli">Garganelli ($4.86/11oz)</option>
@@ -72,7 +72,7 @@
                 <!-- RADIO BUTTONS -->
                 <div id="fillings" class="row container" style="display:none;">
                   <div class="col-12" id="select-filling">
-                      <h5>Select a filling</h5>
+                    <h5>Select a filling</h5>
                   </div>
                   <div class="col-xs-12 col-md-4">
                     <input type="radio" id="mozz" name="filling" value="mozz" checked>
@@ -101,15 +101,15 @@
 
                   <div class="col-xs-12 col-md-4">
                     <input type="radio" id="porcini" name="filling" value="porcini">
-                    <label for="porcini">Porcini</label>
+                    <label for="porcini">Porcini Mushroom</label>
                   </div>
                 </div>
                 <!-- RADIO BUTTONS END -->
 
-                <hr class="hr-divider"><br>
+                <br><hr class="hr-divider"><br>
 
                 <!-- COLORING SELECT -->
-                <label for="pasta-type"><h5>Pasta Flavor/Color:</h5></label>
+                <label for="pasta-type"><h5>Pasta Color:</h5></label>
                 <select class="custom-select" required>
                   <option selected>Select a coloring</option>
                   <option value="egg">Egg (Normal pasta color)</option>
