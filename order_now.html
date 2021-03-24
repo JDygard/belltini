@@ -104,9 +104,11 @@
                     <label for="porcini">Porcini</label>
                   </div>
                 </div>
-                <!-- END -->
+                <!-- RADIO BUTTONS END -->
 
                 <hr class="hr-divider"><br>
+
+                <!-- COLORING SELECT -->
                 <label for="pasta-type"><h5>Pasta Flavor/Color:</h5></label>
                 <select class="custom-select" required>
                   <option selected>Select a coloring</option>
@@ -123,10 +125,30 @@
                   <option value="sunset">Sunset (+$1.89)</option>
                   <option value="other">Other</option>
                 </select>
-                <p>Note: For striped or styled pastas, select "Other" and write your request in the comments area below.</p>
-                
+                <p>Note: For striped or styled pastas, select "Other" and type your request in the comments area below.</p>
+                <!-- COLORING END -->
+                <h4>+ Add another pasta</h4>
+                <!-- TEXT FIELDS-->
+                <div id="textfields">
+                  <ul>
+                    <li>
+                      <label for="name">Name:</label>
+                      <input type="name" id="name" name="name" required>
+                    </li>
+                    
+                    <li>
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required>
+                    </li>
+                    
+                    <li>
+                      <label for="comments">Additional comments:</label>
+                      <textarea name="comments" id="comments" value="comments" cols="30" rows="10"></textarea>
+                    </li>
+                  </ul>
+                </div>
+                <!-- END TEXT FIELDS -->
               </form>
-              <h4>+ Add another pasta</h4>
               <!-- FORM END -->
             </div>
           </div>

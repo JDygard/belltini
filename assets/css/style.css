@@ -519,6 +519,31 @@ h4{
     list-style:none;
 }
 
+#textfields ul{
+    list-style:none;
+    padding:0;
+}
+
+#textfields textarea{
+    vertical-align:top;
+    height:5em;
+    width:auto;
+}
+
+#textfields label{
+    display: inline-block;
+    width:90px;
+    text-align:right;
+}
+#textfields form{
+    float:left;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 1em;
+    clear:left;
+    min-width: 26em;
+}
+
 #fillings{
     margin-top:25px;
 }
