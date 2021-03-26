@@ -57,7 +57,7 @@
               <form action="form-handling/" method="post">
                 <label for="pasta-type" class="select-label"><h5>Pasta Type:</h5></label>
                 <select class="custom-select" id="pasta-type" required>
-                  <option selected>Select a pasta</option>
+                  <option value="" selected>Select a pasta</option>
                   <option value="garganelli">Garganelli ($4.86/11oz)</option>
                   <option value="ravioli">Traditional Ravioli ($8.73/1lb)</option>
                   <option value="contanti">Anatre Contanti ($4.86/11oz)</option>
@@ -111,7 +111,7 @@
                 <!-- COLORING SELECT -->
                 <label for="pasta-type"><h5>Pasta Color:</h5></label>
                 <select class="custom-select" required>
-                  <option selected>Select a coloring</option>
+                  <option value="" selected>Select a coloring</option>
                   <option value="egg">Egg (Normal pasta color)</option>
                   <option value="beetred">Beetroot Red (+$0.75)</option>
                   <option value="pepperred">Bell Pepper Red (+$0.75)</option>
@@ -127,7 +127,7 @@
                 </select>
                 <p>Note: For striped or styled pastas, select "Other" and type your request in the comments area below.</p>
                 <!-- COLORING END -->
-                <h4>+ Add another pasta</h4>
+                <h4><i class="fas fa-plus"></i> Add another pasta</h4>
                 <!-- TEXT FIELDS-->
                 <div id="textfields">
                   <ul>
@@ -148,15 +148,16 @@
                   </ul>
                 </div>
                 <!-- END TEXT FIELDS -->
+                <button type="submit" class="btn btn-primary">Send me pasta!</button>
               </form>
               <!-- FORM END -->
             </div>
           </div>
           <!-- MAP SECTION -->
-          <div id=map>
+          <div id="map">
             <h2>Want to try our pasta before ordering?</h2>
             <p>Visit Ambrosia restaurant in Broad Ripple! Be sure to let them know you're there to try Belltini.</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49017.15314517221!2d-86.15155922566971!3d39.83901113946472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8b1b5f647411f3b0!2sAmbrosia!5e0!3m2!1sen!2sse!4v1616748967330!5m2!1sen!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49017.15314517221!2d-86.15155922566971!3d39.83901113946472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8b1b5f647411f3b0!2sAmbrosia!5e0!3m2!1sen!2sse!4v1616748967330!5m2!1sen!2sse" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
           </div>
         </body>
         <footer>

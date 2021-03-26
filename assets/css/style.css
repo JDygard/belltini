@@ -252,6 +252,31 @@ header ul{
     padding-right: 100px;
 }
 
+/* Learn more text at bottom of why fresh pasta section */
+
+.learn-more{
+    margin:auto;
+    border: 1px solid #36454f;
+    border-radius:7%;
+    margin-bottom:20px;
+}
+
+#learn-more{
+    color:#36454f;
+    text-decoration: none;
+    font-size:22px;
+    font-weight:300;
+    padding: 5px;
+}
+
+.learn-more:hover{
+    background-color: #3c4347;
+}
+
+#learn-more:hover{
+    color:#fafafa;
+}
+
 /* Restyling text for larger screens */
 @media screen and (min-width:992px){
     .reasons-right{
@@ -575,6 +600,21 @@ select{
     }
 }
 
+/* Map section styling */
+#map {
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fafafa;
+    padding-bottom: 30px;
+    border-right: 1px solid #263037;
+    border-left: 1px solid #263037;
+}
+
+#map iframe{
+    border: 1px solid #667788;
+}
+
 /*---------------------------------------------------------------GALLERY-*/
 #gallery-content{
     font-family: "Montserrat", sans-serif;
@@ -595,6 +635,7 @@ select{
     max-height:217px;
     overflow:none;
     object-fit:cover;
+    padding: 5px;
     padding-top:25px;
 }
 
