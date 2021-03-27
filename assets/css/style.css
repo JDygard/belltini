@@ -26,6 +26,7 @@ a{
     position:fixed;
     top:0;
     width:100%;
+    overflow: hidden;
 }
 
 .content{
@@ -45,6 +46,10 @@ nav button{
     margin:0, auto;
     padding:0;
     padding-top: 0;
+}
+
+.navbar-toggler{
+    right: 31px;
 }
 
 .navbar-toggler-icon{
@@ -616,6 +621,7 @@ select{
 }
 
 /*---------------------------------------------------------------GALLERY-*/
+/* Gallery header text formatting */
 #gallery-content{
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -624,13 +630,14 @@ select{
     padding-top:41px;
     background-color: #fafafa;
 }
-
+ /* Horizontal Rule formatting */
 #gallery-content>hr{
     margin-top:30px;
     padding-bottom:40px;
     width: 180px;
 }
 
+/* Gallery image sizing and position within content frame */
 #gallery-content img{
     max-height:217px;
     overflow:none;
@@ -639,12 +646,19 @@ select{
     padding-top:25px;
 }
 
+/* Give uniform height to gallery items */
+.gallery-item{
+    height:100%;
+}
+
+/* Gallery header text formatting */
 #sample-text{
     font-weight:300;
     font-size: 40px;
     letter-spacing: 2px;
 }
 
+/* Formatting corrections for smaller screens */
 @media screen and (max-width:991px){
     #sample-text{
         font-size:32px;
