@@ -1,14 +1,8 @@
 /* Set the max width of the page */
-@media screen and (min-width:1600px){
-    .content{
-        max-width: 70%;
-        margin: auto;
-    }
-    .navbar{
-        max-width: 70%;
-        border-right: 1px #b0b0b0 solid;
-        border-left: 1px #b0b0b0 solid;
-    }
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 a{
@@ -16,22 +10,25 @@ a{
     color:#fff;
     z-index: 5;
 }
+
 /*-----------------------------------------------------------NAV BAR--*/
 
 .navbar {
     background-color: #fafafa;
     padding:0;
-    height: 41px;
+    height: 50px;
     z-index: 9999;
+    width:100%;
     position:fixed;
     top:0;
-    width:100%;
-    overflow: hidden;
 }
 
-.content{
-    margin-top:41px;
+.row{
+    margin-right:0;
+    margin-left:0;
+    max-width:100%;
 }
+
 .navbar-brand{
     margin-left:2%;
 }
@@ -42,14 +39,15 @@ nav {
 }
 
 nav button{
-    height: 41px;
+    height: 50px;
     margin:0, auto;
     padding:0;
     padding-top: 0;
+    right:20px;
 }
 
 .navbar-toggler{
-    right: 31px;
+    right: 0;
 }
 
 .navbar-toggler-icon{
@@ -69,6 +67,21 @@ header ul{
     border: 1px solid black;
 }
 
+@media screen and (min-width:1600px){
+    body{
+        margin: auto;
+    }
+    html{
+        max-width: 70%;
+        margin: auto;
+        border-right: 1px #b0b0b0 solid;
+        border-left: 1px #b0b0b0 solid;
+    }
+
+    .navbar{
+        max-width:70%;
+    }
+}
 
 /* Formatting the nav bar for mobile broke desktop. Fixing it here. */
 @media screen and (min-width:992px){
@@ -176,7 +189,7 @@ header ul{
     text-align: center;
     letter-spacing: 2px;
     margin:0;
-    margin-top: 10px;
+    margin-top: 30px;
     color:#263037 ;
 }
 
@@ -263,7 +276,8 @@ header ul{
     margin:auto;
     border: 1px solid #36454f;
     border-radius:7%;
-    margin-bottom:20px;
+    margin-top:30px;
+    margin-bottom:30px;
 }
 
 #learn-more{
@@ -534,6 +548,7 @@ h4{
     font-size: 18px;
     text-align: center;
     color: #F0D297;
+    margin-top: 100px;
 }
 
 select{
@@ -656,6 +671,7 @@ select{
     font-weight:300;
     font-size: 40px;
     letter-spacing: 2px;
+    padding-top:50px;
 }
 
 /* Formatting corrections for smaller screens */
