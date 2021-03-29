@@ -9,6 +9,7 @@ html, body{
     overflow-x: hidden;
 }
 
+/* Link styling */
 a{
     text-decoration:none;
     color:#fff;
@@ -432,7 +433,7 @@ header ul{
 }
 
 #about-body{
-    background-color: #efe7da;
+    background-color: #eee5d7;
 }
 
 
@@ -487,6 +488,10 @@ h4{
     margin:0, auto;
     transform: translate(125px,-50px);
     padding-top: 2px;
+}
+
+.about-blurbs-2{
+    margin-top:20px;
 }
 
 
@@ -612,7 +617,7 @@ select{
     padding-top:10px;
 }
 
-
+/* Select filling styling */
 #fillings{
     margin-top:25px;
     margin-right:0;
@@ -627,7 +632,7 @@ select{
     text-align: center;
     justify-content:center;
 }
-
+ /* For larger screens */
 @media screen and (min-width:768px){
     #fillings>div{
         display: inline-block;
@@ -653,7 +658,7 @@ select{
     padding-bottom: 10px;
 }
 
-
+/* Map styling and sizing */
 #map-box iframe{
     border: 1px solid #667788;
     display:flex;
@@ -743,6 +748,10 @@ footer{
     flex-direction: column;
 }
 
+.footer-item a:hover {
+    color:#eed5c2;
+}
+
 footer p{
     margin:0;
 }
@@ -769,7 +778,7 @@ footer p{
 #hr-footer{
     display:none;
 }
-
+/* Styling for very small screens */
 @media screen and (max-width:576px){
     .footer-item{
         padding:0;
