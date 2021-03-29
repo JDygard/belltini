@@ -595,7 +595,7 @@ select{
 #textfields{
         float:left;
         clear:left;
-        min-width: 26em;
+        width:100%;
 }
 
 #textfields ul{
@@ -606,12 +606,18 @@ select{
 #textfields textarea{
     vertical-align:top;
     height:5em;
-    width:auto;
+    width:100%;
 }
+@media screen and (min-width:490px){
+    #textfields textarea{
+    width:70%;
+    }
+}
+
 #textfields label{
     display: inline-block;
     width:90px;
-    text-align:right;
+    text-align:center;
 }
 #textfields li + li{
     padding-top:10px;
@@ -652,7 +658,7 @@ select{
     width:100%;
 }
 
-#map-box p, h2{
+#map-box p, #map-box h2{
     width:80%;
     margin:auto;
     padding-bottom: 10px;
