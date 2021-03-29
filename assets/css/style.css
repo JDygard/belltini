@@ -577,9 +577,10 @@ select{
 }
 
 .order-box h5{
-    font-weight:300;
+    font-weight:400;
     font-size:18px;
     text-align:center;
+    width: 98px;
 }
 
 .order-box h4{
@@ -637,18 +638,28 @@ select{
 }
 
 /* Map section styling */
-#map {
+#map-box {
     padding-top: 30px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     background-color: #fafafa;
     padding-bottom: 30px;
-    border-right: 1px solid #263037;
-    border-left: 1px solid #263037;
+    width:100%;
 }
 
-#map iframe{
+#map-box p, h2{
+    width:80%;
+    margin:auto;
+    padding-bottom: 10px;
+}
+
+
+#map-box iframe{
     border: 1px solid #667788;
+    display:flex;
+    margin:auto;
+    width:80%;
+    height:450px;
 }
 
 /*---------------------------------------------------------------GALLERY-*/
@@ -745,6 +756,7 @@ footer p{
 
 .footer-avalon{
     margin-top:20px;
+    padding-bottom:20px;
 }
 
 .footer-avalon>a{
