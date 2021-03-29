@@ -8,7 +8,7 @@
 1.[Introduction](#Introduction)  
 2.[UX](#ux)  
 3.[User stories](#user-stories)  
-4.[Planes of UXD](#planes-of-uxd)  
+4.[Planes of UXD](#design-planes)  
 5.[Strategy](#strategy)  
 6.[Scope](#scope)  
 7.[Structure](#structure)  
@@ -47,7 +47,7 @@ Additionally, this is built as the first of four "Milestone Projects," building 
 
 [Back to Top](#belltini)
 ***
-## Planes of UXD
+## Design Planes
 ### Strategy
 #### Who is this website for, and what does it do?
 1. Audience
@@ -139,6 +139,7 @@ A hero image with a semi-transparent box containing the order form. Order form c
 ### Code credits
 1. The nav element was loosely adapted from the example given on the [bootstrap navbar page](https://getbootstrap.com/docs/4.0/components/navbar/)
 2. The gallery page was adapted from a free code snippet provided by [Bootstrapious](https://bootstrapious.com/p/bootstrap-photo-gallery).
+3. Sticky Footers thanks to [DesignModo](https://help.designmodo.com/article/startup-sticky-footer/)
 
 ### Acknowledgements
 * Seun Owanikoko

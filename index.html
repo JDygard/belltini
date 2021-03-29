@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,18 +15,20 @@
         <link rel="stylesheet" href="assets/css/style.css"> 
         <title>Belltini Pastas</title>
     </head>
-      <body>
+      <body class="h-100 d-flex flex-column">
         <header>
 
         <!-------------------------------------------------------------- NAV BAR-->
         <!-- This is a modified version of the example navbar from the Bootstrap documentation -->
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Logo -->
             <a class="navbar-brand" href="#">Belltini Pastas</a>
+            <!-- Hamburger button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-          
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <!-- Links -->
               <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -50,90 +52,88 @@
 
         <!-------------------------------------------------------- HERO IMAGE SECTION-->
 
-        <div class="content">
-        <div class="hero-container">
+        <div class="content flex-shrink-0">
+          <div class="hero-container">
             <div class="hero-box">
               <h1 id="hero-text">Fresh, handmade pastas<br>Direct to your door</h1>
               <div class="btn-order-now">
                 <a href="order_now.html" type="button" class="btn btn-primary">Order Now!</a>
               </div>
             </div>
-        </div>
-
+          </div>
         <!-------------------------------------------------- WHY FRESH PASTA SECTION -->
-        <section id="reasons-section">
-          <div class="row">
-            <div class="col-12">
-              <h2 id="why-fresh-pasta">Why Fresh Pasta?</h2>
+          <section id="reasons-section">
+            <div class="row">
+              <div class="col-12">
+                <h2 id="why-fresh-pasta">Why Fresh Pasta?</h2>
+              </div>
             </div>
-          </div>
-          <hr class="hr-divider-top">
-          <div class="row reasons">
-            <!-- Top-left/first reasons button -->
-            <div class="col-md-12 col-lg-6 reasons-left">
-              <img src="assets/images/reasons-icon-health-sm.png" alt="bowl of noodles" class="reasons-icon reasons-icon-left">
-              <h3 class="fresh-reasons-h3">
-                Healthier Ingredients
-              </h3>
-              <hr class="hr-divider">
-              <p class="fresh-reasons-p">Fresh pasta doesn’t need to be processed for shelf storage like dry pasta.</p>
+            <hr class="hr-divider-top">
+            <div class="row reasons">
+              <!-- Top-left/first reasons button -->
+              <div class="col-md-12 col-lg-6 reasons-left">
+                <img src="assets/images/reasons-icon-health-sm.png" alt="bowl of noodles" class="reasons-icon reasons-icon-left">
+                <h3 class="fresh-reasons-h3">
+                  Healthier Ingredients
+                </h3>
+                <hr class="hr-divider">
+                <p class="fresh-reasons-p">Fresh pasta doesn’t need to be processed for shelf storage like dry pasta.</p>
+              </div>
+              <hr class="hr-divider-long">
+              <!-- Top-right/second reasons button -->
+              <div class="col-md-12 col-lg-6 reasons-right">
+                <img src="assets/images/reasons-icon-texture-sm.png" alt="pasta rolls" class="reasons-icon reasons-icon-right">
+                <h3 class="fresh-reasons-h3">
+                Texture and Consistency
+                </h3>
+                <hr class="hr-divider">
+                <p class="fresh-reasons-p">Fresh eggs give a richer flavor and a springy, light texture when compared to dried pasta.</p>
+              </div>
+              <hr class="hr-divider-long">
+              <!-- Bottom left/third reasons button -->
+              <div class="col-md-12 col-lg-6 reasons-left">
+                <img src="assets/images/reasons-icon-flavor-sm.png" alt="ravioli" class="reasons-icon reasons-icon-left">
+                <h3 class="fresh-reasons-h3">
+                Flavor and Versatility
+                </h3>
+                <hr class="hr-divider">
+                <p class="fresh-reasons-p">Fresh pasta can have essentially any flavor, and takes on flavor from sauces that dried pasta typically does not.</p>
+              </div>
+              <!-- Bottom right reasons button, hidden on small screens -->
+              <div class="d-none d-lg-inline-block col-lg-6 reasons-right">
+                <img src="assets/images/reasons-icon-color-sm.png" alt="farfalle" class="reasons-icon reasons-icon-right">
+                <h3 class="fresh-reasons-h3">
+                <span>Color</span>                 
+                </h3>
+                <hr class="hr-divider">
+                <p class="fresh-reasons-p">Add a splash of color to your dinner with eyepopping spirulina, sun-dried tomato or other natural colorings.</p>
+              </div>
+              <!-- Learn more button -->
+              <div class="learn-more">
+                <a href="learn_more.html" id="learn-more">Learn more ></a>
+              </div>
             </div>
-            <hr class="hr-divider-long">
-            <!-- Top-right/second reasons button -->
-            <div class="col-md-12 col-lg-6 reasons-right">
-              <img src="assets/images/reasons-icon-texture-sm.png" alt="pasta rolls" class="reasons-icon reasons-icon-right">
-              <h3 class="fresh-reasons-h3">
-              Texture and Consistency
-              </h3>
-              <hr class="hr-divider">
-              <p class="fresh-reasons-p">Fresh eggs give a richer flavor and a springy, light texture when compared to dried pasta.</p>
-            </div>
-            <hr class="hr-divider-long">
-            <!-- Bottom left/third reasons button -->
-            <div class="col-md-12 col-lg-6 reasons-left">
-              <img src="assets/images/reasons-icon-flavor-sm.png" alt="ravioli" class="reasons-icon reasons-icon-left">
-              <h3 class="fresh-reasons-h3">
-              Flavor and Versatility
-              </h3>
-              <hr class="hr-divider">
-              <p class="fresh-reasons-p">Fresh pasta can have essentially any flavor, and takes on flavor from sauces that dried pasta typically does not.</p>
-            </div>
-            <!-- Bottom right reasons button, hidden on small screens -->
-            <div class="d-none d-lg-inline-block col-lg-6 reasons-right">
-              <img src="assets/images/reasons-icon-color-sm.png" alt="farfalle" class="reasons-icon reasons-icon-right">
-              <h3 class="fresh-reasons-h3">
-              <span>Color</span>                 
-              </h3>
-              <hr class="hr-divider">
-              <p class="fresh-reasons-p">Add a splash of color to your dinner with eyepopping spirulina, sun-dried tomato or other natural colorings.</p>
-            </div>
-            <!-- Learn more button -->
-            <div class="learn-more">
-              <a href="learn_more.html" id="learn-more">Learn more ></a>
-            </div>
-          </div>
-        </section>
+          </section>
         <!------------------------------------------------------ WHY BELLTINI SECTION -->
-        <section>
-          <div class="why-belltini-container">
-            <h2>Why Belltini?</h2>
-            <h3>Your pasta will be handmade to-order with fresh<br>ingredients and our select recipes</h3>
-            <div class="btn-order-now">
-              <a href="order_now.html" type="button" class="btn btn-primary">Order Now!</a>
+          <section>
+            <div class="why-belltini-container">
+              <h2>Why Belltini?</h2>
+              <h3>Your pasta will be handmade to-order with fresh<br>ingredients and our select recipes</h3>
+              <div class="btn-order-now">
+                <a href="order_now.html" type="button" class="btn btn-primary">Order Now!</a>
+              </div>
             </div>
-          </div>
-        </section>
-      </div>
+          </section>
+        </div>
 
         <!------------------------------------------------------------------ FOOTER  -->
       </body>
-      <footer>
+      <footer class="mt-auto">
         <div class="row">
           <div class="col-12 col-sm-6 footer-item footer-avalon">
             Try our pastas at <a href="https://www.ambrosiaindy.com/" target="_blank">Ambrosia</a>
             <hr class="hr-divider" id="hr-footer">
           </div>
-          
           <div class="col-12 col-sm-6 footer-item footer-insta">
             <p>Follow us on Instagram</p>
             <a href="https://www.instagram.com/belltinipasta/" target="_blank"> <i class="fab fa-instagram"></i></a>
