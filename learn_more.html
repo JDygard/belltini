@@ -50,10 +50,35 @@
       </header>
   <div class="content flex-shrink-0">
       <body>
+        <!-- Closable tabs -->
+        <div id="healthier" class="city">
+          <h2>London</h2>
+          <p>London is the capital of England.</p>
+        </div>
+
+        <div id="texture" class="city" style="display:none">
+          <h2>Paris</h2>
+          <p>Paris is the capital of France.</p>
+        </div>
+
+        <div id="flavor" class="city" style="display:none">
+          <h2>Tokyo</h2>
+          <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+        <div id="color" class="city" style="display:none">
+          <h2>Tokyo</h2>
+          <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+
+
+        <!-- Video -->
         <div id="learnmore-video">
           <h2>Want to learn how fresh pasta is made?</h2>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/ESz55eORW44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div> 
+        <!-- End video -->
       </body>
   </div>
       <footer class="mt-auto">
@@ -69,5 +94,15 @@
         </div>
       </footer>
     </body>
+    <!-- Scripts -->
+    <script>
+      function openCity(cityName) {
+        var i;
+        var x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        document.getElementById(cityName).style.display = "block";
+    }</script>
 </html>
 
