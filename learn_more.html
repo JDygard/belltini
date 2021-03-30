@@ -49,29 +49,50 @@
         </nav>
       </header>
   <div class="content flex-shrink-0">
-      <body>
+      <body> 
+        <!-- Tabs section -->
+        <!-- This section was taken almost directly from the wc3school's example page for tab bars -->
+        <div class="tab-bar">
+          <button class="" onclick="openTab('healthier')">Health</button>
+          <button class="" onclick="openTab('texture')">Texture</button>
+          <button class="" onclick="openTab('flavor')">Flavors</button>
+          <button class="" onclick="openTab('color')">Colors</button>
+        </div> 
         <!-- Closable tabs -->
-        <div id="healthier" class="city">
-          <h2>London</h2>
-          <p>London is the capital of England.</p>
+        <div id="tabs">
+          <div id="healthier" class="tab">
+            <h2>Healthier Ingredients</h2>
+            <p>
+              Pasta has an inherently simple recipe, fresh or dried. 
+              Simple dried pasta is flour and water mashed into a paste, pushed through molds, air-dried and shelf-stored.
+              Simple fresh pasta is flour, eggs, oil and salt kneaded like dough and formed into the desired style.
+              The difference between fresh and dried becomes more apparent when you consider additives: If you want to adjust the firmness, extend the shelf-life, reduce stickiness, or change the cooking characteristics, you start relying on additives
+                like emulsifiers, organic acids, enzymes, and <em>propylene glycol alginate</em>.
+              Adjusting a fresh pasta's characteristics involves selecting different oils, eggs and mixing flours bespoke to specialize for sauces.
+              But it's still just flour, egg, oil, salt.
+            </p>
+          </div>
+
+          <div id="texture" class="tab" style="display:none">
+            <h2>Texture and Consistency</h2>
+            <p>
+              Which is better for texture, fresh or dried pasta? That's like asking "Which shoe is better for walking, a running shoe or a hiking shoe?" The answer is "It depends."
+              Dried pasta gives a better <em>al dente</em> bite and is thus better suited for casseroles and very heavy ragu sauces where the stronger structure is necessary. 
+              Fresh pasta can be adjusted from "00" flour's silkiness to semolina's soft, grainy texture, and anywhere in-between. This gives you the ability to fine-tune a pasta to match a particular dish.
+            </p>
+          </div>
+
+          <div id="flavor" class="tab" style="display:none">
+            <h2>Flavor and Versatility</h2>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+
+          <div id="color" class="tab" style="display:none">
+            <h2>Color</h2>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
         </div>
-
-        <div id="texture" class="city" style="display:none">
-          <h2>Paris</h2>
-          <p>Paris is the capital of France.</p>
-        </div>
-
-        <div id="flavor" class="city" style="display:none">
-          <h2>Tokyo</h2>
-          <p>Tokyo is the capital of Japan.</p>
-        </div>
-
-        <div id="color" class="city" style="display:none">
-          <h2>Tokyo</h2>
-          <p>Tokyo is the capital of Japan.</p>
-        </div>
-
-
+        <!-- End Tabs -->
 
         <!-- Video -->
         <div id="learnmore-video">
@@ -96,13 +117,13 @@
     </body>
     <!-- Scripts -->
     <script>
-      function openCity(cityName) {
+      function openTab(tabName) {
         var i;
-        var x = document.getElementsByClassName("city");
+        var x = document.getElementsByClassName("tab");
         for (i = 0; i < x.length; i++) {
           x[i].style.display = "none";
         }
-        document.getElementById(cityName).style.display = "block";
+        document.getElementById(tabName).style.display = "block";
     }</script>
 </html>
 
