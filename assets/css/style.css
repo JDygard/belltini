@@ -759,6 +759,7 @@ select{
 }
 
 .tab-bar>button{
+    font-family: "Montserrat", sans-serif;
     width:25%;
     padding:0;
     margin:0;
@@ -773,6 +774,9 @@ select{
 #healthier{
     background-color: #eae5e1;
 }
+#healthierbutton{
+    background-color: #fafafa;
+}
 
 /* -------------------------------Texture page */
 #texture-bg img{
@@ -781,6 +785,9 @@ select{
 #texture{
     background-color: #f3e9b6;
 }
+#texturebutton{
+    background-color: #fafafa;
+}
 
 /* -------------------------------Flavor page */
 #flavor-bg img{
@@ -788,6 +795,9 @@ select{
 }
 #flavor{
     background-color: #fee2ab;
+}
+#flavorbutton{
+    background-color: #fafafa;
 }
 
 /* -------------------------------Color page */
@@ -798,6 +808,11 @@ select{
     background-color: #1c0e0b;
     color: #fafafa;
 }
+#colorbutton{
+    background-color: #fafafa;
+
+}
+
 /* --------------------------------------------- Pages end */
 /* Video styling */
 
