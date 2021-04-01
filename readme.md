@@ -1,6 +1,6 @@
 # Belltini
 
-![Logo with belltini page](assets/images/images-readme/readmeheader.jpeg "belltini header")
+![Logo with belltini page](assets/images/images-readme/readmeheaderv2.jpeg "belltini header")
 [View the page on github here](jdygard.github.io/belltini "Belltini Homepage")
 
 ## Table of Contents
@@ -17,6 +17,7 @@
 3. [Current Features](#Current-Features)  
     i. [Nav Bar](#nav-bar)  
     ii. [Footer](#footer)  
+4. [Issues and Bugs](#Issues-and-bugs)
 
 ## Introduction 
 
@@ -160,6 +161,8 @@ Developer discovered that when adding the Sticky Footers from DesignModo, the na
 ### Horizontal Overflow
 After giving the navbar a fixed position at the top of the page, the developer discovered that a small overflow outside the body of the page was permitting horizontal scrolling. Though minor, it bore correcting. By eliminating nodes of code one-by-one, the culprit was discovered to be the hamburger button on the navbar. As far as the developer can tell, it would require a complete restyling of the nav element in order to correct without ruining the overall look of the page. Bug was fixed by restricting the viewport to the intended width of the page.
 
+[Back to Top](#belltini)
+***
 ## CREDITS
 ### Technologies used
 1. JQuery
