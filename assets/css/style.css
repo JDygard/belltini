@@ -280,7 +280,7 @@ header ul{
 .learn-more{
     margin:auto;
     border: 1px solid #36454f;
-    border-radius:7%;
+    border-radius:9px;
     margin-top:30px;
     margin-bottom:30px;
 }
@@ -290,11 +290,11 @@ header ul{
     text-decoration: none;
     font-size:22px;
     font-weight:300;
-    padding: 5px;
+    padding: 10px;
 }
 
 .learn-more:hover{
-    background-color: #3c4347;
+    background-color: #667788;
 }
 
 #learn-more:hover{
