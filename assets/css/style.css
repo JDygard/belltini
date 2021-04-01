@@ -762,8 +762,10 @@ select{
     font-family: "Montserrat", sans-serif;
     width:25%;
     padding:0;
-    margin:0;
+    margin:0 2px;
     border-radius: 10px 10px 0 0;
+    color:#36454f;
+    border-bottom: none;
 }
 
 
@@ -813,6 +815,23 @@ select{
 
 }
 
+/* Styling for larger screens */
+.tab-text{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.tab-text h2{
+    text-indent: 35px;
+}
+
+.hr-tabs{
+    width: 20%;
+    border-top: 1px #3c4347 solid;
+    right:30%;
+    position: relative;
+    margin-top:8px;
+}
+
 /* --------------------------------------------- Pages end */
 /* Video styling */
 
@@ -823,8 +842,32 @@ select{
     margin-bottom: 60px;
 }
 
+/* Multiple media queries for the video */
+/* Because iframes are hard to adjust responsively due to load time */
 #learnmore-video iframe{
-    width: 80%;
+    width: 988px;
+    height:560px;
+}
+
+@media screen and (max-width:1040px){
+    #learnmore-video iframe{
+        width: 700px;
+        height:393px;
+    }
+}
+@media screen and (max-width:760px){
+    #learnmore-video iframe{
+        width: 500px;
+        height:289px;
+    }
+
+}
+@media screen and (max-width:540px){
+    #learnmore-video iframe{
+        width: 300px;
+        height:168px;
+    }
+
 }
 
 #learnmore-video>h2{

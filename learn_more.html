@@ -55,8 +55,8 @@
         <div class="tab-bar">
           <button id="healthierbutton" class="btn btn-outline-secondary" onclick="openTab('healthier')">Health</button>
           <button id="texturebutton" class="btn btn-outline-secondary" onclick="openTab('texture')">Texture</button>
-          <button id="flavorbutton" class="btn btn-outline-secondary" onclick="openTab('flavor')">Flavors</button>
-          <button id="colorbutton" class="btn btn-outline-secondary" onclick="openTab('color')">Colors</button>
+          <button id="flavorbutton" class="btn btn-outline-secondary" onclick="openTab('flavor')">Flavor</button>
+          <button id="colorbutton" class="btn btn-outline-secondary" onclick="openTab('color')">Color</button>
         </div> 
 
         <!-- Closable tabs -->
@@ -64,9 +64,16 @@
 
           <!-- Healthier Tab-->
           <div id="healthier" class="tab">
-            <div id=healthier-bg><img src="assets/images/images-learnmore/healthier-bg-md.png" alt="An egg in flower"></div>
+            <div id=healthier-bg>
+              <picture>
+                <source srcset="assets/images/images-learnmore/healthier-bg-md.png" media="(max-width:994px)">
+                <source srcset="assets/images/images-learnmore/healthier-bg-lg.png" media="(min-width:995px)">
+                <img src="assets/images/images-learnmore/healthier-bg-md.png" alt="An egg in flour">
+              </picture>
+            </div>
             <div class="tab-text">
               <h2>Healthier Ingredients</h2>
+              <hr class="hr-tabs">
               <p>
                 Pasta has an inherently simple recipe, fresh or dried. 
                 Simple dried pasta is flour and water mashed into a paste, pushed through molds, air-dried and shelf-stored.
@@ -87,9 +94,17 @@
 
           <!-- Texture Tab-->
           <div id="texture" class="tab" style="display:none">
-            <div id="texture-bg"><img src="assets/images/images-learnmore/texture-bg-md.png" alt="Tagliatalle"></div>
+            <div id="texture-bg">
+              <picture>
+                <source srcset="assets/images/images-learnmore/texture-bg-md.png" media="(max-width:994px)">
+                <source srcset="assets/images/images-learnmore/texture-bg-lg.png" media="(min-width:995px)">
+                <img src="assets/images/images-learnmore/texture-bg-md.png" alt="Tagliatalle">
+              </picture>
+            </div>
+
             <div class="tab-text">
               <h2>Texture and Consistency</h2>
+              <hr class="hr-tabs">
               <p>
                 Which is better for texture, fresh or dried pasta? That's like asking "Which shoe is better for walking, a running shoe or a hiking shoe?" The answer is "It depends."
               </p>
@@ -107,9 +122,16 @@
 
           <!-- Flavor Tab -->
           <div id="flavor" class="tab" style="display:none">
-            <div id="flavor-bg"><img src="assets/images/images-learnmore/flavor-bg-md.png" alt="Ravioli with sauce and herbs"></div>
+            <div id="flavor-bg">
+              <picture>
+                <source srcset="assets/images/images-learnmore/flavor-bg-md.png" media="(max-width:994px)">
+                <source srcset="assets/images/images-learnmore/flavor-bg-lg.png" media="(min-width:995px)">
+                <img src="assets/images/images-learnmore/flavor-bg-md.png" alt="Ravioli with sauce and herbs">
+              </picture>
+            </div>
             <div class="tab-text">
               <h2>Flavor and Versatility</h2>
+              <hr class="hr-tabs">
               <p>
                 Flavor is one of the aspects in which fresh pastas, particularly homemade fresh pastas, can really shine. Not only can you control the flavor of the pastas themselves, but you can fill them with whatever you want, giving you the ability
                 to create a fusion between the flavors of your sauces, pastas and fillings. This opens a whole new world of flavor combinations.
@@ -123,9 +145,16 @@
 
           <!-- Color Tab -->
           <div id="color" class="tab" style="display:none">
-            <div id="color-bg"><img src="assets/images/images-learnmore/color-bg-sm.png" alt="Elaborate ravioli in orange and blue"></div>
+            <div id="color-bg">
+              <picture>
+                <source srcset="assets/images/images-learnmore/color-bg-sm.png" media="(max-width:994px)">
+                <source srcset="assets/images/images-learnmore/color-bg-lg.png" media="(min-width:995px)">
+                <img src="assets/images/images-learnmore/color-bg-sm.png" alt="Elaborate ravioli in orange and blue">
+              </picture>
+            </div>
             <div class="tab-text">
               <h2>Color</h2>
+              <hr class="hr-tabs">
               <p>
                 The availability and customization of pasta colors are where fresh pasta is the clear winner. It's a rainbow of natural colors: red from roasted red pepper or sundried tomato, orange from roasted bell pepper, carrot or sweet potato,
                 yellow from carrot or bell pepper, green from spinach or spirulina, blue and purple from spirulina... even intense blacks from squid's ink or activated charcoal!
