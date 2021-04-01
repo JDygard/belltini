@@ -133,7 +133,7 @@ All of the background images used on this page have three versions at different 
 3. A "Why Belltini?" section that briefly says why you should pick Belltini pasta. The background image is from Pexel. The image chosen elicits the labor involved in handcrafted pasta. The dark background provides a perfect frame for our text.
     
 ### <strong>[Learn More Page](learn_more.html)</strong>
-Features a video of fresh pasta being made by a professional.
+The "Learn more" page is essentially an extension of the "Why Fresh Pasta?" section of the splash page. It features a javascript-based tab system to switch between four topics and contains a short article on each. Each article is headed by a splash image evoking the topic. 
 
 ### <strong>[Selection Page](gallery.html)</strong>
 A gallery page featuring some of the products made by Belltini. Lightbox2 was used, with custom alignment and responsiveness. If the developer were more skilled in JS, this style of page would have been used as the order page, with each image chosen used to highlight the aspect being selected.
@@ -155,6 +155,10 @@ The footer is a minimalistic element on this page. The current social media pres
 ***
 ## ISSUES AND BUGS
 ### Nav bar
+Developer discovered that when adding the Sticky Footers from DesignModo, the navbar no longer stretched the width of the page, and the footer was placed alongside the page rather than at the bottom of it. After much trial and error, and re-reading the page about flexbox technology, it was discovered that part of the page was inheriting "display: inline-block" and dumping the footer outside the intended flow of the page. This was corrected by assigning the correct display property.
+
+### Horizontal Overflow
+After giving the navbar a fixed position at the top of the page, the developer discovered that a small overflow outside the body of the page was permitting horizontal scrolling. Though minor, it bore correcting. By eliminating nodes of code one-by-one, the culprit was discovered to be the hamburger button on the navbar. As far as the developer can tell, it would require a complete restyling of the nav element in order to correct without ruining the overall look of the page. Bug was fixed by restricting the viewport to the intended width of the page.
 
 ## CREDITS
 ### Technologies used
@@ -168,9 +172,11 @@ The footer is a minimalistic element on this page. The current social media pres
 1. The nav element was loosely adapted from the example given on the [bootstrap navbar page](https://getbootstrap.com/docs/4.0/components/navbar/)
 2. The gallery page was adapted from a free code snippet provided by [Bootstrapious](https://bootstrapious.com/p/bootstrap-photo-gallery).
 3. Sticky Footers thanks to [DesignModo](https://help.designmodo.com/article/startup-sticky-footer/)
+4. CSS Tabulator thanks to [WC3 Tabulators](https://www.w3schools.com/w3css/w3css_tabulators.asp)
 
 ### Acknowledgements
-* Seun Owanikoko
+* Seun Owanikoko, my patient, skilled and hilarious mentor.
 * My friends and family who patiently looked at multiple iterations of my site.
+* Code Institute, for a smooth and accessible course.
 
 [Back to Top](#belltini)
