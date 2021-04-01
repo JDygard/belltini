@@ -129,7 +129,7 @@ header ul{
     padding: 30px;
     background-size: 257px;
     width: 257px;
-    border-radius: 5%;
+    border-radius: 14px;
     display: block;
     position: relative;
     justify-content: center;
@@ -559,7 +559,7 @@ h4{
     background-size: 257px;
     width: 80%;
     max-width: 584px;
-    border-radius: 5%;
+    border-radius: 12px;
     display: block;
     position: relative;
     justify-content: center;
@@ -766,8 +766,16 @@ select{
     border-radius: 10px 10px 0 0;
     color:#36454f;
     border-bottom: none;
+    background-color: #fafafa;
 }
 
+/* Override bootstrap transitions for legibility */
+.btn-outline-secondary:hover{
+    transition-property: "background-color" !important;
+    transition-duration: 0.15s !important;
+    transition-timing-function: ease-in-out !important;
+    background-color:#667788 !important;
+}
 
 /* -------------------------------Healthier page */
 #healthier-bg img{
@@ -812,7 +820,6 @@ select{
 }
 #colorbutton{
     background-color: #fafafa;
-
 }
 
 /* Styling for larger screens */
