@@ -8,8 +8,8 @@
 1. [Introduction](#Introduction)  
 2. [UX](#ux)  
     i.   [User stories](#user-stories)  
-    ii.  [Planes of UXD](#design-planes)  
-    iii. [Strategy](#strategy)  
+    ii.  [Design Planes](#design-planes)  
+    iii. [Strategy/Demographics](#strategy)  
     iv.  [Scope](#scope)  
     v.   [Structure](#structure)  
     vi.  [Skeleton](#skeleton)  
@@ -18,6 +18,8 @@
     i. [Nav Bar](#nav-bar)  
     ii. [Footer](#footer)  
 4. [Issues and Bugs](#Issues-and-bugs)
+5. [Technologies Used](#technologies-used)
+6. [Code credits](#code-credits)
 
 ## Introduction 
 
@@ -29,43 +31,66 @@ Additionally, this is built as the first of four "Milestone Projects," building 
 ***
 ## UX
 ### Users:
-1. Current commercial customers
-2. New commercial customers
-3. Current private consumers
-4. New private customers
+1. Current commercial restaurant customers
+2. Current commercial retail/grocer customers
+3. New commercial restaurant customers
+4. New commercial retail/grocer customers
+5. Current private individual consumers
+6. New private individual customers
 
 [Back to Top](#belltini)
 
 ***
 
 ## User Stories
-### Current commercial customers
-1. As a current commercial customer, I want to find pictures and information about new products, 
-2. As a current commercial customer, I want to review, sample or purchase current products not yet on my 
+### Current commercial restaurant customers
+1. As a current commercial restaurant customer, I want to find pictures and information about new products, 
+2. As a current commercial restaurant customer, I want to review, sample or purchase current products not yet on my 
 restaurant menu.
-### Potential commercial customers
-1. As a potential new commercial customer, I want to be assured of a commitment to quality.
-2. As a potential new commercial customer, I want to easily find information about products 
-3. As a potential new commercial customer, I want to be inspired to add or modify my restaurant's menu with products from Belltini.
-4. As a potential new commercial customer, I want to be able to easily contact Belltini with questions or orders.
-### Current private customers
-1. As a current private consumer, I am interested in finding products I haven't yet tried.
-2. As a current private consumer, I want to easily place orders.
-### Potential new private customers
-1. As a new private customer, I want to see why I should choose to buy fresh, handmade pasta for a premium price rather than machine-made from the grocery store.
-2. As a new private customer, I want to see product images or learn about fresh pasta in general.
-3. As a new private customer, I want to easily place orders.
+3. As a current commercial restaurant customer, I want to contact Belltini about custom flavor and color combinations.
+4. As a current commercial restaurant customer, I want to be able to easily order products.
+
+### Current commercial retail/grocery customers
+1. As a current commercial retail/grocer customer, I want to find pictures and information about new products, 
+2. As a current commercial retail/grocer customer, I want to review, sample or purchase current products not yet in my selection.
+3. As a current commercial retail/grocer customer, I want to be able to easily order products.
+
+### Potential commercial restaurant customers
+1. As a potential commercial restaurant customer, I want to find pictures and information about new products, 
+2. As a potential commercial restaurant customer, I want to review, sample or purchase current products not yet on my restaurant menu.
+3. As a potential commercial restaurant customer, I want to contact Belltini about custom flavor and color combinations.
+4. As a potential commercial restaurant customer, I want to be able to easily order products.
+5. As a potential commercial restaurant customer, I want to be assured of a commitment to consistent quality.
+
+### Potential commercial retail/grocer customers
+1. As a potential new commercial retail/grocer customer, I want to be assured of a commitment to quality.
+2. As a potential new commercial retail/grocer customer, I want to easily find information about products.
+3. As a potential new commercial retail/grocer customer, I want to be inspired to add or modify my store's selection with Belltini products.
+4. As a potential new commercial retail/grocer customer, I want to be able to easily contact Belltini with questions or orders.
+
+### Current private individual customers
+1. As a current private individual consumer, I am interested in finding products I haven't yet tried.
+2. As a current private individual consumer, I want to easily place orders.
+3. As a current private individual consumer, I want to learn about the product and company.
+
+### Potential new private individual customers
+1. As a new private individual customer, I want to see why I should choose to buy fresh, handmade pasta for a premium price rather than machine-made from the grocery store.
+2. As a new private individual customer, I want to see product images or learn about fresh pasta in general.
+3. As a new private individual customer, I want to easily place orders.
 
 [Back to Top](#belltini)
 ***
 ## Design Planes
 ### Strategy
 #### Who is this website for, and what does it do?
-1. Audience
+1. Demographics
     1. New and current commercial customers, new and current private customers
     2. Fresh, handmade pasta has a short shelf-life, and a high cost per portion. This means that it is less practical and more expensive.
-        Private consumers will likely either be young (20-29 years old) and sporadic, or 30+ years old. The target audience is thus older and accustomed to professionalism and clean, modern UI.
-        Commercial customers will be high-end restauranteurs with expectations of clean, modern UI with concise information about the products.
+
+        i. Private consumers will likely either be young (20-29 years old) and sporadic, or 30+ years old. The target audience is thus older and accustomed to professionalism and clean, modern UI.
+
+
+        ii. Commercial customers will be high-end restauranteurs with expectations of clean, modern UI with concise information about the products.
 2. Functional requirements
     1. Easy access to information, like new products, flavors, styles and biography.
     2. Ability to order the product.
@@ -74,10 +99,10 @@ restaurant menu.
     1. The website should present a professional public face.
     2. The website should provide access to the product.
     3. The website should attract new customers.
-
+***
+### Importance/Feasability curves
 ![alt text](assets/images/images-readme/readmestrategy.jpg "Logo Title Text 1")
 
-### Importance/Feasability curves (graphic above)
 1. Increase web presence: Developer gives this a 4/4. Having a web presence is important but not the central goal of the business. Through search engine optimization and accessible design, this goal is very achievable for the the developer.
 2. Attract new customers: Developer gives this a 5/3. The core goal of the business is to sell pasta, and the website should serve this goal as centrally as possible. However, the site is only part of the business strategy for the attraction of customers. The owner will be distributing business cards, courting businesses and relying on some amount of "word of mouth" business. The site and developer will serve this goal by providing an accessible website that advertises the product and business as attractively as possible.
 3. Include general information: Developer gives this a 3/5. This serves the site's goal of attracting new customers by teaching them the benefits of the product and familiarizing them with the business and owner themselves. Though it isn't crucial to the site's goals, it is "low-hanging-fruit."
@@ -165,14 +190,15 @@ After giving the navbar a fixed position at the top of the page, the developer d
 ***
 ## CREDITS
 ### Technologies used
-1. JQuery
-2. Javascript
-3. Lightroom
-4. CSS
-5. HTML5
+1. [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+2. [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+3. [JQuery](https://en.wikipedia.org/wiki/JQuery)
+4. [Lightbox2](https://lokeshdhakar.com/projects/lightbox2)
+5. [CSS](https://en.wikipedia.org/wiki/CSS)
+6. [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
 ### Code credits
-1. The nav element was loosely adapted from the example given on the [bootstrap navbar page](https://getbootstrap.com/docs/4.0/components/navbar/)
+1. The nav element was loosely adapted from the example given on the [Bootstrap navbar page](https://getbootstrap.com/docs/4.0/components/navbar/)
 2. The gallery page was adapted from a free code snippet provided by [Bootstrapious](https://bootstrapious.com/p/bootstrap-photo-gallery).
 3. Sticky Footers thanks to [DesignModo](https://help.designmodo.com/article/startup-sticky-footer/)
 4. CSS Tabulator thanks to [WC3 Tabulators](https://www.w3schools.com/w3css/w3css_tabulators.asp)
