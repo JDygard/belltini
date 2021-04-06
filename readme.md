@@ -7,19 +7,33 @@
 
 1. [Introduction](#Introduction)  
 2. [UX](#ux)  
+    
     i.   [User stories](#user-stories)  
+    
     ii.  [Design Planes](#design-planes)  
+    
     iii. [Strategy/Demographics](#strategy)  
+    
     iv.  [Scope](#scope)  
+    
     v.   [Structure](#structure)  
+    
     vi.  [Skeleton](#skeleton)  
+    
     vii. [Surface](#surface)  
 3. [Current Features](#Current-Features)  
+    
     i. [Nav Bar](#nav-bar)  
+    
     ii. [Footer](#footer)  
 4. [Issues and Bugs](#Issues-and-bugs)
-5. [Technologies Used](#technologies-used)
-6. [Code credits](#code-credits)
+5. [Credits](#credits)
+    
+    i. [Technologies Used](#technologies-used)
+
+    ii. [Code credits](#code-credits)
+
+    iii. [Acknowledgements](#acknowledgements)
 
 ## Introduction 
 
@@ -196,6 +210,7 @@ After giving the navbar a fixed position at the top of the page, the developer d
 4. [Lightbox2](https://lokeshdhakar.com/projects/lightbox2)
 5. [CSS](https://en.wikipedia.org/wiki/CSS)
 6. [HTML5](https://en.wikipedia.org/wiki/HTML5)
+7. [Google Fonts](https://fonts.google.com/)
 
 ### Code credits
 1. The nav element was loosely adapted from the example given on the [Bootstrap navbar page](https://getbootstrap.com/docs/4.0/components/navbar/)
