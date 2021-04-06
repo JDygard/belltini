@@ -466,6 +466,7 @@ h4{
 #about-profile-img{
     width: 250px;
     height: 310px;
+    margin-right: 40px;
 }
 
 .about-content{
@@ -473,6 +474,14 @@ h4{
     padding: 0;
     padding-left: 8%;
     padding-right: 8%;
+}
+
+.about-content p{
+    text-indent: 35px;
+}
+
+.about-content h4{
+    margin-top:30px;
 }
 
 .about-meet{
@@ -486,7 +495,7 @@ h4{
     text-align:center;
     letter-spacing:-1px;
     margin:0, auto;
-    transform: translate(125px,-50px);
+    transform: translate(105px,-50px);
     padding-top: 2px;
 }
 
@@ -739,6 +748,7 @@ select{
     font-family: "Montserrat", sans-serif;
     width: 100%;
     margin:auto;
+    padding-bottom: 35px;
 }
 
 .tab-text{
@@ -763,12 +773,18 @@ select{
 .tab-bar>button{
     font-family: "Montserrat", sans-serif;
     width:25%;
-    padding:0;
+    padding:10px;
     margin:0 2px;
     border-radius: 10px 10px 0 0;
     color:#36454f;
     border-bottom: none;
     background-color: #fafafa;
+}
+
+@media screen and (min-width:800px){
+    .tab-bar>button{
+        max-width:300px;
+    }
 }
 
 /* Override bootstrap transitions for legibility */
@@ -841,6 +857,14 @@ select{
     margin-top:8px;
 }
 
+@media screen and (max-width:995px){
+    .tab-text{
+        padding-right: 5% !important;
+        padding-left: 5% !important;
+    }    
+}
+
+
 /* --------------------------------------------- Pages end */
 /* Video styling */
 
@@ -857,6 +881,7 @@ select{
     width: 988px;
     height:560px;
 }
+
 
 @media screen and (max-width:1040px){
     #learnmore-video iframe{
