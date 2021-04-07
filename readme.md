@@ -205,9 +205,16 @@ After giving the navbar a fixed position at the top of the page, the developer d
 ## CREDITS
 ### Technologies used
 1. [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-2. [Javascript](https://en.wikipedia.org/wiki/JavaScript)
-3. [JQuery](https://en.wikipedia.org/wiki/JQuery)
-4. [Lightbox2](https://lokeshdhakar.com/projects/lightbox2)
+    : Bootstrap was used to build some responsive elements on the site, like the "Why fresh pasta?" section of the index page, and the entire gallery and about pages.
+
+2. [Javascript](https://en.wikipedia.org/wiki/JavaScript): Javascript was employed in the order page to hide an element there. It was also used in the "Learn more" page for the tab system.
+
+
+3. [JQuery](https://en.wikipedia.org/wiki/JQuery): Jquery is a dependancy for Lightbox2.
+
+
+4. [Lightbox2](https://lokeshdhakar.com/projects/lightbox2): Lightbox2 is the program used for the Gallery page.
+
 5. [CSS](https://en.wikipedia.org/wiki/CSS)
 6. [HTML5](https://en.wikipedia.org/wiki/HTML5)
 7. [Google Fonts](https://fonts.google.com/)
