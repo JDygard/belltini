@@ -26,8 +26,9 @@
     i. [Nav Bar](#nav-bar)  
     
     ii. [Footer](#footer)  
-4. [Issues and Bugs](#Issues-and-bugs)
-5. [Credits](#credits)
+4. [Testing and Deployment](#Testing)
+5. [Issues and Bugs](#Issues-and-bugs)
+6. [Credits](#credits)
     
     i. [Technologies Used](#technologies-used)
 
@@ -189,6 +190,43 @@ The navbar is a typical responsive navigational element. The logo is placed in t
 
 ### Footer
 The footer is a minimalistic element on this page. The current social media presence of Belltini is limited to her instagram, so a link to that and a link to a restaurant that serves her pasta is there. On smaller screens, the links are in a column, on larger screens they spread out for the minimalistic feel.
+
+
+[Back to Top](#belltini)
+***
+## Testing and Deployment
+### Testing
+[Testing video on Youtube (external link)](https://www.youtube.com/watch?v=hVsZj0v5vV8 "Belltini testing video")
+
+
+### Deployment
+This project was developed using Visual Studio Code v1.55.0, and all commit/push commands were performed in the software's terminal.
+
+#### Github Pages
+1. Log into GitHub
+2. Navigate to [the repository](https://github.com/JDygard/belltini).
+3. Click "Settings"
+4. Scroll to "GitHub Pages"
+5. Select a branch.
+6. The "GitHub Pages" section should now contain the link to the deployed page.
+
+#### Creating a fork
+1. Navigate to [the repository](https://github.com/JDygard/belltini).
+2. Click "Fork"
+
+#### Cloning with GitPod
+1. Install GitPod extension.
+2. Log into GitHub
+3. Navigate to [the repository](https://github.com/JDygard/belltini).
+4. Click "GitPod."
+ 
+#### Cloning into VSCode
+1. Navigate to [the repository](https://github.com/JDygard/belltini).
+2. Click "Clone or download"
+3. Copy the provided URL.
+4. Open your terminal
+5. Navigate to the desired target directory
+6. type 'git clone' and then paste the url.
 
 
 [Back to Top](#belltini)
