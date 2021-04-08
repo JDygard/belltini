@@ -1,116 +1,212 @@
+
+
 <!DOCTYPE html>
-<html lang="en" class="h-100" id="about-html">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/803ce1ce3c.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/style.css"> 
-        <title>Belltini Pastas</title>
-    </head>
-      <body class="h-100 d-flex flex-column" id="about-body">
-        <header>
-          <!-------------------------------------------------------------- NAV BAR-->
-          <!-- This is a modified version of the example navbar from the Bootstrap documentation -->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<html lang="en" class="h-100">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/803ce1ce3c.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link href="assets/lightbox/css/lightbox.css" rel="stylesheet"/>
+      <title>Belltini Pastas</title>
+   </head>
+   <body class="h-100 d-flex flex-column">
+      <header>
+         <!-------------------------------------------------------------- NAV BAR-->
+         <!-- This is a modified version of the example navbar from the Bootstrap documentation -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <!-- Logo -->
             <a class="navbar-brand" href="index.html">Belltini Pastas</a>
             <!-- Hamburger button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <!-- Links -->
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="learn_more.html">Learn More</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="gallery.html">Selection</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="order_now.html">Order Now</a>
-                </li>
-              </ul>
+               <!-- Links -->
+               <ul class="navbar-nav">
+                  <li class="nav-item ">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="learn_more.html">Learn More</a>
+                  </li>
+                  <li class="nav-item active">
+                     <a class="nav-link" href="gallery.html">Selection <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="order_now.html">Order Now</a>
+                  </li>
+               </ul>
             </div>
-          </nav>
-        </header>
-        <div class="content flex-shrink-0">
-          <section id="about-section">
-            <div class="row about-content">
-              <!-- Profile picture -->
-              <div class="about-profile col-12 col-lg-4">
-                <img src="assets/images/about-profile.jpg" id="about-profile-img" alt="Picture of Sarah Bell Tini">
-                <div class="about-meet">
-                  Meet Sarah Bell Tini
-                </div>
-              </div>
-              <!-- First Blurb -->
-              <article class="about-blurbs-1 about-blurbs col-12 col-lg-6">
-                <h4>An Early Start</h4>
-                <hr class="hr-divider hr-about">
-                <p>
-                  Sarah was born in October 1989 in Indianapolis, Indiana, to Thomas and Elizabeth Dygard. Tom was an organic farmer and professional chef, growing many of the ingredients used in the home-made meals he was teaching his children to prepare.
-                  Sarah and her siblings were all taught to cook from an early age, learning the benefit and importance of fresh ingredients. 
-                </p> <br>
-                <p>
-                  Very early on, the family moved to Jordan, Indiana, to a much larger farm. She played baseball, basketball and soccer on local teams, made art and music, and cooked.
-                  The weekly ritual of preparing pizza or lasagna and watching IU basketball was ingrained in the family, and Sarah took to Italian cooking (and pancakes) like a fish to water. 
-                </p>
-              </article>
-              <!-- Second Blurb -->
-              <article class="about-blurbs-2 about-blurbs col-12">
-                <h4>The Joy of Cooking</h4>
-                <hr class="hr-divider hr-about">
-                <p>
-                  After the passing of her father at age 10, Sarah moved back to Indianapolis with her mother. She continued her attention to art, music and cooking pursuits at Nora Elementary School, Eastwood Middle school and then North Central High School. After moving out on her own, she worked on expanding her culinary horizons but never shook her love of Italian inspired pastas, pizza and lasagnas.
-                  She was well-known in personal circles for arriving at a social gathering with a bag of fresh ingredients and making an entire pizza or lasagna from scratch. 
-                </p><br>
-                <p>
-                  When she set herself to learning to make pasta, she would often make far too much and give away batches of farfalle or raviolis to family and friends.
-                  These gifts became such surprise treasures that people began offering to buy batches to-order, and a local restauranteur became interested in her products. Sarah decided it was time to pursue the art she loved as a profession.
-                </p>
-              </article>
-              <br><br>
-              <!-- Third Blurb -->
-              <article class="about-blurbs about-blurbs-3 col-12">
-                <h4>A Pandemic Haven</h4>
-                <hr class="hr-divider hr-about">
-                <p>
-                  Sarah lives in Indianapolis with her partner Blake, a professional chef, and her dog Miles. When she's not handcrafting pastas, she plays cello in a virtual quartet, plays The Sims or visits with family remotely. 
-                </p>
-                <p>
-                  She plans to develop Belltini into a full-time occupation and move the operation into a full-size facility, while maintaining the boutique, bespoke style and quality.
-                </p>
-              </article>
+         </nav>
+      </header>
+      <div class="content flex-shrink-0">
+         <!-- Gallery section :: This gallery was adapted from a BootStrapious Lightbox gallery and uses Lightbox2 -->
+         <section id="gallery-content">
+            <h2 id="sample-text">A sample of our selection</h2>
+            <hr class="hr-divider">
+            <div class="row">
+               <!-- Gallery item -->
+               <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm gallery-item">
+                     <a href="assets/images/images-gallery/garganelli.JPG" data-lightbox="penne"><img src="assets/images/images-gallery/garganelli.JPG" alt="agnolotti" class="img-fluid card-img-top"></a>
+                     <div class="p-4">
+                        <h5> Striped Garganelli</h5>
+                        <p class="small text-muted mb-0"> Our handmade garganelli is perfectly suited for sauces like pesto, marinera or arrabiata. Shown here striped with natural spinach coloring. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- End -->
+               <!-- Gallery item -->
+               <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm gallery-item">
+                     <a href="assets/images/images-gallery/anatre-cantanti.jpg" data-lightbox="anatre-contanti"><img src="assets/images/images-gallery/anatre-cantanti.jpg" alt="agnolotti" class="img-fluid card-img-top"></a>
+                     <div class="p-4">
+                        <h5> Anatre Contanti <br> (Singing Duck) </h5>
+                        <p class="small text-muted mb-0">A Belltini original pasta, suited for medium-viscosity sauces. Our orange coloring can be achieved with beetroot, carrot or bell pepper.</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- End -->
+               <!-- Gallery item -->
+               <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm gallery-item">
+                     <a href="assets/images/images-gallery/blue-ravioli.JPG" data-lightbox="landscape"><img src="assets/images/images-gallery/blue-ravioli.JPG" alt="agnolotti" class="img-fluid card-img-top"></a>
+                     <div class="p-4">
+                        <h5> Kaiga Ravioli & Mezzelune </h5>
+                        <p class="small text-muted mb-0"> Broad raviolis and mezzelune with coloring inspired by Japanese landscape art (kaiga). Blue and green coloring provided by spirulina and spinach. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- End -->
+               <!-- Gallery item -->
+               <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm gallery-item">
+                     <a href="assets/images/images-gallery/farfalle-oj.JPG" data-lightbox="farfalleoj"><img src="assets/images/images-gallery/farfalle-oj.JPG" alt="agnolotti" class="img-fluid card-img-top"></a>
+                     <div class="p-4">
+                        <h5> Orange Farfalle <br>(Bowtie Pasta) </h5>
+                        <p class="small text-muted mb-0"> Farfalle is a versatile pasta for soups, tomato sauces and casseroles. Seen here with natural carrot coloring. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- End -->
+               <!-- Gallery item -->
+               <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm gallery-item">
+                     <a href="assets/images/images-gallery/Farfalle.JPG" data-lightbox="farfalle"><img src="assets/images/images-gallery/Farfalle.JPG" alt="agnolotti" class="img-fluid card-img-top"></a>
+                     <div class="p-4">
+                        <h5> Colored Farfalle <br>(Bowtie pasta) </h5>
+                        <p class="small text-muted mb-0"> Farfalle is a versatile pasta for soups, tomato sauces and casseroles. Spinach and carrot coloring shown here. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- End -->
+               <!-- Gallery item -->
+               <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm gallery-item">
+                     <a href="assets/images/images-gallery/agnolotti.JPG" data-lightbox="agnolotti"><img src="assets/images/images-gallery/agnolotti.JPG" alt="agnolotti" class="img-fluid card-img-top"></a>
+                     <div class="p-4">
+                        <h5> Agnolotti</h5>
+                        <p class="small text-muted mb-0"> Agnolotti is similar to ravioli, but is made with a single, folded piece of pasta. Shown here is our rich, natural spinach coloring. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- End -->
+               <!-- Gallery item -->
+               <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm gallery-item">
+                     <a href="assets/images/images-gallery/penne.JPG" data-lightbox="penne2"><img src="assets/images/images-gallery/penne.JPG" alt="agnolotti" class="img-fluid card-img-top"></a>
+                     <div class="p-4">
+                        <h5> Garganelli</h5>
+                        <p class="small text-muted mb-0"> Our handmade Garganelli is perfectly suited for sauces like pesto, marinera or arrabiata. Shown here striped with natural spinach coloring and without coloring. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- End -->
+               <!-- Gallery item -->
+               <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm gallery-item">
+                     <a href="assets/images/images-gallery/ravioli-candy.JPG" data-lightbox="ravioli-candy"><img src="assets/images/images-gallery/ravioli-candy.JPG" alt="agnolotti" class="img-fluid card-img-top"></a>
+                     <div class="p-4">
+                        <h5> Caramelle Ravioli </h5>
+                        <p class="small text-muted mb-0"> Caramelle ravioli, named for its candy shape, is a fun twist on the traditional ravioli. Shown here colored with beetroot. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- End -->
+               <!-- Gallery item -->
+               <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm gallery-item">
+                     <a href="assets/images/images-gallery/ravioli-oj.jpg" data-lightbox="ravioli-oj"><img src="assets/images/images-gallery/ravioli-oj.jpg" alt="agnolotti" class="img-fluid card-img-top"></a>
+                     <div class="p-4">
+                        <h5> Agnolotti </h5>
+                        <p class="small text-muted mb-0"> A "Twist" on traditional agnolotti, this shape brings out the flavor of the pasta with the filling. Colored with carrot. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- End -->
+               <!-- Gallery item -->
+               <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm gallery-item">
+                     <a href="assets/images/images-gallery/ravioli-purple-2.jpg" data-lightbox="ravioli-purple-2"><img src="assets/images/images-gallery/ravioli-purple-2.jpg" alt="agnolotti" class="img-fluid card-img-top"></a>
+                     <div class="p-4">
+                        <h5> Sunset Ravioli </h5>
+                        <p class="small text-muted mb-0"> Beetroot, spirulina, carrot and spinach combine to make this eyepopping color combination. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- End -->
+               <!-- Gallery item -->
+               <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm gallery-item">
+                     <a href="assets/images/images-gallery/ravioli-purple.jpg" data-lightbox="ravioli-purple-2"><img src="assets/images/images-gallery/ravioli-purple.jpg" alt="agnolotti" class="img-fluid card-img-top"></a>
+                     <div class="p-4">
+                        <h5> Sunset Fagottini </h5>
+                        <p class="small text-muted mb-0"> Fagottini are little pasta bundles, usually filled with vegetables like onions, carrots, green bean or ricotta cheese. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- End -->
+               <!-- Gallery item -->
+               <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm gallery-item">
+                     <a href="assets/images/images-gallery/tortellacci.JPG" data-lightbox="tortellacci"><img src="assets/images/images-gallery/tortellacci.JPG" alt="agnolotti" class="img-fluid card-img-top"></a>
+                     <div class="p-4">
+                        <h5> Tortellacci, Tortelloni,<br>Tortellini </h5>
+                        <p class="small text-muted mb-0"> Different sizes of the same sort of stuffed pastas. Colored with spirulina. </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- End -->
             </div>
-          </section>
-        </div>
-      <footer class="mt-auto">
-        <div class="row">
-          <div class="col-12 col-sm-6 footer-item footer-avalon">
+         </section>
+      </div>
+   </body>
+   <!-- Footer -->
+   <footer class="mt-auto">
+      <div class="row">
+         <div class="col-12 col-sm-6 footer-item footer-avalon">
             Try our pastas at <a href="https://www.ambrosiaindy.com/" target="_blank">Ambrosia</a>
             <hr class="hr-divider" id="hr-footer">
-          </div>
-          
-          <div class="col-12 col-sm-6 footer-item footer-insta">
+         </div>
+         <div class="col-12 col-sm-6 footer-item footer-insta">
             <p>Follow us on Instagram</p>
             <a href="https://www.instagram.com/belltinipasta/" target="_blank"> <i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </footer> 
-    </body>
+         </div>
+      </div>
+   </footer>
+   <!-- Scripts -->
+   <script src="assets/lightbox/js/lightbox-plus-jquery.js"></script>
 </html>
+

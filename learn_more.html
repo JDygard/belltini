@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
-  <head>
+   <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,194 +10,186 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
       <script src="https://kit.fontawesome.com/803ce1ce3c.js" crossorigin="anonymous"></script>
       <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="assets/css/style.css"> 
+      <link rel="stylesheet" href="assets/css/style.css">
       <title>Belltini Pastas</title>
-  </head>
-    <body class="h-100 d-flex flex-column">
+   </head>
+   <body class="h-100 d-flex flex-column">
       <header>
-        <!-------------------------------------------------------------- NAV BAR-->
-        <!-- This is a modified version of the example navbar from the Bootstrap documentation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <!-- Logo -->
-          <a class="navbar-brand" href="index.html">Belltini Pastas</a>
-          <!-- Hamburger button -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <!-------------------------------------------------------------- NAV BAR-->
+         <!-- This is a modified version of the example navbar from the Bootstrap documentation -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">Belltini Pastas</a>
+            <!-- Hamburger button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Links -->
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Learn More <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Selection</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="order_now.html">Order Now</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <!-- Links -->
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#">Learn More <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="gallery.html">Selection</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="order_now.html">Order Now</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
       </header>
-  <div class="content flex-shrink-0">
-      <body> 
-        <div class="learn-more-header">
-          <h2>Want to learn more about fresh pasta?</h2>
-          <p>Click the tabs below</p>
-        </div>
-        <!-- Tabs section -->
-        <!-- This section was taken almost directly from the wc3school's example page for tab bars -->
-        <div class="tab-bar">
-          <button id="healthierbutton" class="btn btn-outline-secondary" onclick="openTab('healthier')">Health</button>
-          <button id="texturebutton" class="btn btn-outline-secondary" onclick="openTab('texture')">Texture</button>
-          <button id="flavorbutton" class="btn btn-outline-secondary" onclick="openTab('flavor')">Flavor</button>
-          <button id="colorbutton" class="btn btn-outline-secondary" onclick="openTab('color')">Color</button>
-        </div> 
-
-        <!-- Closable tabs -->
-        <div id="tabs">
-
-          <!-- Healthier Tab-->
-          <div id="healthier" class="tab">
-            <div id=healthier-bg>
-              <picture>
-                <source srcset="assets/images/images-learnmore/healthier-bg-md.jpg" media="(max-width:994px)">
-                <source srcset="assets/images/images-learnmore/healthier-bg-lg.jpg" media="(min-width:995px)">
-                <img src="assets/images/images-learnmore/healthier-bg-md.jpg" alt="An egg in flour">
-              </picture>
+      <div class="content flex-shrink-0">
+         <body>
+            <div class="learn-more-header">
+               <h2>Want to learn more about fresh pasta?</h2>
+               <p>Click the tabs below</p>
             </div>
-            <div class="tab-text">
-              <h2>Healthier Ingredients</h2>
-              <hr class="hr-tabs">
-              <p>
-                Pasta has an inherently simple recipe, fresh or dried. 
-                Simple dried pasta is flour and water mashed into a paste, pushed through molds, air-dried and shelf-stored.
-                Simple fresh pasta is flour, eggs, oil and salt kneaded like dough and formed into the desired style.
-              </p>
-              <p>
-                The difference between fresh and dried becomes more apparent when you consider additives: If you want to adjust the firmness, extend the shelf-life, reduce stickiness, or change the cooking characteristics, you start relying on additives
-                  like emulsifiers, organic acids, enzymes, and <em>propylene glycol alginate</em>.
-              </p>
-              <p>
-                Adjusting a fresh pasta's characteristics involves selecting different oils, eggs and mixing flours bespoke to specialize for sauces.
-              </p>
-              <p style="text-align: center;">
-                But it's still just flour, egg, oil, salt.
-              </p>
+            <!-- Tabs section -->
+            <!-- This section was taken almost directly from the wc3school's example page for tab bars -->
+            <div class="tab-bar">
+               <button id="healthierbutton" class="btn btn-outline-secondary" onclick="openTab('healthier')">Health</button>
+               <button id="texturebutton" class="btn btn-outline-secondary" onclick="openTab('texture')">Texture</button>
+               <button id="flavorbutton" class="btn btn-outline-secondary" onclick="openTab('flavor')">Flavor</button>
+               <button id="colorbutton" class="btn btn-outline-secondary" onclick="openTab('color')">Color</button>
             </div>
-          </div>
-
-          <!-- Texture Tab-->
-          <div id="texture" class="tab" style="display:none">
-            <div id="texture-bg">
-              <picture>
-                <source srcset="assets/images/images-learnmore/texture-bg-md.jpg" media="(max-width:994px)">
-                <source srcset="assets/images/images-learnmore/texture-bg-lg.jpg" media="(min-width:995px)">
-                <img src="assets/images/images-learnmore/texture-bg-md.jpg" alt="Tagliatalle">
-              </picture>
+            <!-- Closable tabs -->
+            <div id="tabs">
+               <!-- Healthier Tab-->
+               <div id="healthier" class="tab">
+                  <div id=healthier-bg>
+                     <picture>
+                        <source srcset="assets/images/images-learnmore/healthier-bg-md.jpg" media="(max-width:994px)">
+                        <source srcset="assets/images/images-learnmore/healthier-bg-lg.jpg" media="(min-width:995px)">
+                        <img src="assets/images/images-learnmore/healthier-bg-md.jpg" alt="An egg in flour">
+                     </picture>
+                  </div>
+                  <div class="tab-text">
+                     <h2>Healthier Ingredients</h2>
+                     <hr class="hr-tabs">
+                     <p>
+                        Pasta has an inherently simple recipe, fresh or dried. 
+                        Simple dried pasta is flour and water mashed into a paste, pushed through molds, air-dried and shelf-stored.
+                        Simple fresh pasta is flour, eggs, oil and salt kneaded like dough and formed into the desired style.
+                     </p>
+                     <p>
+                        The difference between fresh and dried becomes more apparent when you consider additives: If you want to adjust the firmness, extend the shelf-life, reduce stickiness, or change the cooking characteristics, you start relying on additives
+                        like emulsifiers, organic acids, enzymes, and <em>propylene glycol alginate</em>.
+                     </p>
+                     <p>
+                        Adjusting a fresh pasta's characteristics involves selecting different oils, eggs and mixing flours bespoke to specialize for sauces.
+                     </p>
+                     <p style="text-align: center;">
+                        But it's still just flour, egg, oil, salt.
+                     </p>
+                  </div>
+               </div>
+               <!-- Texture Tab-->
+               <div id="texture" class="tab" style="display:none">
+                  <div id="texture-bg">
+                     <picture>
+                        <source srcset="assets/images/images-learnmore/texture-bg-md.jpg" media="(max-width:994px)">
+                        <source srcset="assets/images/images-learnmore/texture-bg-lg.jpg" media="(min-width:995px)">
+                        <img src="assets/images/images-learnmore/texture-bg-md.jpg" alt="Tagliatalle">
+                     </picture>
+                  </div>
+                  <div class="tab-text">
+                     <h2>Texture and Consistency</h2>
+                     <hr class="hr-tabs">
+                     <p>
+                        Which is better for texture, fresh or dried pasta? That's like asking "Which shoe is better for walking, a running shoe or a hiking shoe?" The answer is "It depends."
+                     </p>
+                     <p>
+                        Dried pasta gives a better <em>al dente</em> bite and is thus better suited for casseroles and very heavy ragu sauces where the stronger structure is necessary. 
+                        Fresh pasta can be adjusted from "00" flour's silkiness to semolina's soft, grainy texture, and anywhere in-between. This gives you the ability to fine-tune a pasta to match a particular dish.
+                     </p>
+                     <p>
+                        Where fresh pasta really stands out is the freedom of form. When dried pasta is put into boiling water, it first must hydrate evenly, then cook evenly. This means that a fairly strict
+                        consistency of thickness needs to be adhered to. This is particularly noticeable in dried farfalle (bowtie) pastas, where the "tie" part of the pasta will come out firmer than the rest of the pasta.
+                        Fresh pasta has a very short boil time (2-3 minutes usually) and retains the optimal firmness more evenly.
+                     </p>
+                  </div>
+               </div>
+               <!-- Flavor Tab -->
+               <div id="flavor" class="tab" style="display:none">
+                  <div id="flavor-bg">
+                     <picture>
+                        <source srcset="assets/images/images-learnmore/flavor-bg-md.jpg" media="(max-width:994px)">
+                        <source srcset="assets/images/images-learnmore/flavor-bg-lg.jpg" media="(min-width:995px)">
+                        <img src="assets/images/images-learnmore/flavor-bg-md.jpg" alt="Ravioli with sauce and herbs">
+                     </picture>
+                  </div>
+                  <div class="tab-text">
+                     <h2>Flavor and Versatility</h2>
+                     <hr class="hr-tabs">
+                     <p>
+                        Flavor is one of the aspects in which fresh pastas, particularly homemade fresh pastas, can really shine. Not only can you control the flavor of the pastas themselves, but you can fill them with whatever you want, giving you the ability
+                        to create a fusion between the flavors of your sauces, pastas and fillings. This opens a whole new world of flavor combinations.
+                     </p>
+                     <p>
+                        Think of mixing a silky red sundried tomato colored pasta ravioli with mozzarella filling, or a semolina
+                        pasta fagottini with creamy ricotta, onion and spinach filling. The possibilities are essentially endless!
+                     </p>
+                  </div>
+               </div>
+               <!-- Color Tab -->
+               <div id="color" class="tab" style="display:none">
+                  <div id="color-bg">
+                     <picture>
+                        <source srcset="assets/images/images-learnmore/color-bg-sm.jpg" media="(max-width:994px)">
+                        <source srcset="assets/images/images-learnmore/color-bg-lg.jpg" media="(min-width:995px)">
+                        <img src="assets/images/images-learnmore/color-bg-sm.jpg" alt="Elaborate ravioli in orange and blue">
+                     </picture>
+                  </div>
+                  <div class="tab-text">
+                     <h2>Color</h2>
+                     <hr class="hr-tabs">
+                     <p>
+                        The availability and customization of pasta colors are where fresh pasta is the clear winner. It's a rainbow of natural colors: red from roasted red pepper or sundried tomato, orange from roasted bell pepper, carrot or sweet potato,
+                        yellow from carrot or bell pepper, green from spinach or spirulina, blue and purple from spirulina... even intense blacks from squid's ink or activated charcoal! Or, by carefully tuning the amount of coloring to the flour content,
+                        we can get pink, lavender, mauve and more.
+                     </p>
+                     <p>
+                        We can mix and match colors, styles, patterns, motifs and fillings. Black raviolis with light ricotta filling, red agnolatti with spinach and porcini filling, or try one of Belltini's bespoke patterned pastas with whatever flavor you choose.
+                        The only limit is our creativity.
+                     </p>
+                  </div>
+               </div>
             </div>
-
-            <div class="tab-text">
-              <h2>Texture and Consistency</h2>
-              <hr class="hr-tabs">
-              <p>
-                Which is better for texture, fresh or dried pasta? That's like asking "Which shoe is better for walking, a running shoe or a hiking shoe?" The answer is "It depends."
-              </p>
-              <p>
-                Dried pasta gives a better <em>al dente</em> bite and is thus better suited for casseroles and very heavy ragu sauces where the stronger structure is necessary. 
-                Fresh pasta can be adjusted from "00" flour's silkiness to semolina's soft, grainy texture, and anywhere in-between. This gives you the ability to fine-tune a pasta to match a particular dish.
-              </p>
-              <p>
-                Where fresh pasta really stands out is the freedom of form. When dried pasta is put into boiling water, it first must hydrate evenly, then cook evenly. This means that a fairly strict
-                consistency of thickness needs to be adhered to. This is particularly noticeable in dried farfalle (bowtie) pastas, where the "tie" part of the pasta will come out firmer than the rest of the pasta.
-                Fresh pasta has a very short boil time (2-3 minutes usually) and retains the optimal firmness more evenly.
-              </p>
+            <!-- End Tabs -->
+            <!-- Video -->
+            <div id="learnmore-video">
+               <h2>Want to see how fresh pasta is made?</h2>
+               <iframe src="https://www.youtube.com/embed/ESz55eORW44" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
             </div>
-          </div>
-
-          <!-- Flavor Tab -->
-          <div id="flavor" class="tab" style="display:none">
-            <div id="flavor-bg">
-              <picture>
-                <source srcset="assets/images/images-learnmore/flavor-bg-md.jpg" media="(max-width:994px)">
-                <source srcset="assets/images/images-learnmore/flavor-bg-lg.jpg" media="(min-width:995px)">
-                <img src="assets/images/images-learnmore/flavor-bg-md.jpg" alt="Ravioli with sauce and herbs">
-              </picture>
-            </div>
-            <div class="tab-text">
-              <h2>Flavor and Versatility</h2>
-              <hr class="hr-tabs">
-              <p>
-                Flavor is one of the aspects in which fresh pastas, particularly homemade fresh pastas, can really shine. Not only can you control the flavor of the pastas themselves, but you can fill them with whatever you want, giving you the ability
-                to create a fusion between the flavors of your sauces, pastas and fillings. This opens a whole new world of flavor combinations.
-              </p>
-              <p>
-              Think of mixing a silky red sundried tomato colored pasta ravioli with mozzarella filling, or a semolina
-                pasta fagottini with creamy ricotta, onion and spinach filling. The possibilities are essentially endless!
-              </p>
-            </div>
-          </div>
-
-          <!-- Color Tab -->
-          <div id="color" class="tab" style="display:none">
-            <div id="color-bg">
-              <picture>
-                <source srcset="assets/images/images-learnmore/color-bg-sm.jpg" media="(max-width:994px)">
-                <source srcset="assets/images/images-learnmore/color-bg-lg.jpg" media="(min-width:995px)">
-                <img src="assets/images/images-learnmore/color-bg-sm.jpg" alt="Elaborate ravioli in orange and blue">
-              </picture>
-            </div>
-            <div class="tab-text">
-              <h2>Color</h2>
-              <hr class="hr-tabs">
-              <p>
-                The availability and customization of pasta colors are where fresh pasta is the clear winner. It's a rainbow of natural colors: red from roasted red pepper or sundried tomato, orange from roasted bell pepper, carrot or sweet potato,
-                yellow from carrot or bell pepper, green from spinach or spirulina, blue and purple from spirulina... even intense blacks from squid's ink or activated charcoal! Or, by carefully tuning the amount of coloring to the flour content,
-                we can get pink, lavender, mauve and more.
-              </p>
-              <p>
-                We can mix and match colors, styles, patterns, motifs and fillings. Black raviolis with light ricotta filling, red agnolatti with spinach and porcini filling, or try one of Belltini's bespoke patterned pastas with whatever flavor you choose.
-                The only limit is our creativity.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- End Tabs -->
-
-        <!-- Video -->
-        <div id="learnmore-video">
-          <h2>Want to see how fresh pasta is made?</h2>
-          <iframe src="https://www.youtube.com/embed/ESz55eORW44" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-        </div> 
-        <!-- End video -->
-
-      </body>
-  </div>
-  <!-- Footer -->
-      <footer class="mt-auto">
-        <div class="row">
-          <div class="col-12 col-sm-6 footer-item footer-avalon">
+            <!-- End video -->
+   </body>
+   </div>
+   <!-- Footer -->
+   <footer class="mt-auto">
+      <div class="row">
+         <div class="col-12 col-sm-6 footer-item footer-avalon">
             Try our pastas at <a href="https://www.ambrosiaindy.com/" target="_blank">Ambrosia</a>
             <hr class="hr-divider" id="hr-footer">
-          </div>
-          <div class="col-12 col-sm-6 footer-item footer-insta">
+         </div>
+         <div class="col-12 col-sm-6 footer-item footer-insta">
             <p>Follow us on Instagram</p>
             <a href="https://www.instagram.com/belltinipasta/" target="_blank"> <i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </footer>
-    </body>
-    <!-- Scripts -->
-    <script>
+         </div>
+      </div>
+   </footer>
+   </body>
+   <!-- Scripts -->
+   <script>
       function openTab(tabName) {
         var i;
         var x = document.getElementsByClassName("tab");
@@ -205,6 +197,7 @@
           x[i].style.display = "none";
         }
         document.getElementById(tabName).style.display = "block";
-    }</script>
+      }
+   </script>
 </html>
 

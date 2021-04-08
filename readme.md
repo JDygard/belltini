@@ -132,6 +132,7 @@ restaurant menu.
 
     ii. Video and images that intrigue and tempt the user to purchase.
 3. User is able to learn about the business and the chef.
+***
 ### Structure
 #### How is the information structured and grouped?
 1. A splash home page with small bits of easily-digestible information and direct links to the order page.
@@ -143,17 +144,23 @@ restaurant menu.
 
     iii. A biographical page with information about the chef.
 3. An explicit and structured page with an order form.
+***
 ### Skeleton
 #### How do we represent this information? How does the user find it?
 1. The home page features snippets of information with links to learn more at each step.
 2. The nav bar is clear and explicit about the information to be found on each page.
+3. The footer contains relevant links on each page.
+4. The Learn More page contains more specific information about the product.
+5. The About page contains information about the chef.
+6. The Selection page has a gallery with images of the product.
+7. The order form is clear and concise.
 ### Surface
 #### What does it look like?
-1. Customers of this page will expect a clean, light, modern design with clear, simple features arranged intuitively. 
+1. The most targeted users of this page (as discussed in [demographics](#strategy) above) will expect a clean, light, modern design with clear, simple features arranged intuitively. 
 
     i. Because this site is intending to generally appeal to anyone who might order professionally made ingredients, and specifically to higher-income people, a modern, clean style was chosen. This includes minimalistic features to highlight large, emotionally involving imagery featuring the product. 
     
-    ii. The colors were chosen for this minimalistic, clean design, following a color pallette one might find in a bright kitchen like off-white and light-colored wood.
+    ii. The colors were chosen for this minimalistic, clean design, following a color palette one might find in a bright kitchen like off-white and light-colored wood.
 
     iii. Font: Montserrat was chosen for most informational features for its clean, modern look. Roboto was used for buttons, forms and hero image boxes because of its high visibility while retaining some modern tone.
 
@@ -237,6 +244,9 @@ Developer discovered that when adding the Sticky Footers from DesignModo, the na
 
 ### Horizontal Overflow
 After giving the navbar a fixed position at the top of the page, the developer discovered that a small overflow outside the body of the page was permitting horizontal scrolling. Though minor, it bore correcting. By eliminating nodes of code one-by-one, the culprit was discovered to be the hamburger button on the navbar. As far as the developer can tell, it would require a complete restyling of the nav element in order to correct without ruining the overall look of the page. Bug was fixed by restricting the viewport to the intended width of the page.
+
+### Load Times
+After finishing the bulk of the page, it was discovered that load times were egregious, particularly when viewed on a mobile device. Most of the images on the site were delivered in .png format, so a total refit was undertaken, converting every image on the site into .jpg, and reducing the overall resolution of some elements.
 
 [Back to Top](#belltini)
 ***
