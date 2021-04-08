@@ -584,9 +584,6 @@ select{
 
 .select-label{
     width:auto;
-}
-
-.order-box h5{
     font-weight:400;
     font-size:18px;
     text-align:center;
