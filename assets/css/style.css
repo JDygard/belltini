@@ -507,9 +507,6 @@ h4{
 
 /* Styling for blurbs for large sized screens */
 @media screen and (min-width:992px){
-    .about-blurbs-1{
-        align-content: bottom;
-    }
 
     .about-content{
         margin-left:10%;
@@ -530,7 +527,6 @@ h4{
     }
     .about-profile{
         margin-bottom:0;
-        text-align: none;
     }
 }
 /* A little bit of adjustment for very small screens */
@@ -702,7 +698,6 @@ select{
 /* Gallery image sizing and position within content frame */
 #gallery-content img{
     max-height:217px;
-    overflow:none;
     object-fit:cover;
     padding: 5px;
     padding-top:25px;
@@ -802,7 +797,7 @@ select{
 
 /* Override bootstrap transitions for legibility */
 .btn-outline-secondary:hover{
-    transition-property: "background-color" !important;
+    transition-property: background-color !important;
     transition-duration: 0.15s !important;
     transition-timing-function: ease-in-out !important;
     background-color:#667788 !important;
