@@ -873,6 +873,9 @@ select{
         padding-right: 5% !important;
         padding-left: 5% !important;
     }    
+    .hr-tabs{
+        right: 0;
+    }
 }
 
 

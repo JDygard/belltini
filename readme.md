@@ -1,7 +1,7 @@
 # Belltini
 
 ![Logo with belltini page](assets/images/images-readme/readme-header.jpeg "belltini header")
-[View the page on github here](jdygard.github.io/belltini "Belltini Homepage")
+[View the page on github here](https://jdygard.github.io/belltini/ "Belltini Homepage")
 
 ## Table of Contents
 
